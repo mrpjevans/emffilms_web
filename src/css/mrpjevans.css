@@ -1,0 +1,82 @@
+.logo, .backlink a {
+	font-family: 'Nothing You Could Do', cursive;
+}
+
+a {
+	text-decoration: none;
+}
+
+.backlink a {
+	font-size: 1.2rem;
+}
+
+.backlink {
+	margin: 1rem 0 1rem 0;
+}
+
+.post-type {
+	text-align: center;
+}
+
+.post-type svg {
+	width: 2.5vh;
+	height: auto;
+	margin: 0.5rem 0 0 0;
+}
+
+.index-item {
+	margin: 2rem 0 1rem 0;
+}
+
+.meta-date {
+	font-style: italic;
+	color: silver;
+	font-size: 0.8rem;
+}
+
+h1 {
+	font-family: Coustard, system-ui, Helvetica, sans-serif;
+	font-size: 1.7rem;
+	text-align: center;
+	margin: 1.5rem 0 1.5rem 0;
+}
+
+.h1-with-date {
+	margin: 1.5rem 0 0 0;
+}
+
+p {
+	font-family: Poppins, system-ui, Helvetica, sans-serif;
+	font-size: 0.9rem;
+	line-height: 1.5rem;
+}
+
+img {
+  max-width: 100%;
+	margin-bottom: 1rem;
+}
+img[width] {
+  width: auto; /* Defer to max-width */
+}
+img[width][height] {
+  height: auto; /* Preserve aspect ratio */
+}
+
+.footer {
+	font-style: italic;
+	color: silver;
+	font-size: 0.8rem;
+	line-height: 28px;
+}
+
+.cc {
+	float:right;
+}
+
+.cc img {
+	height: 1.5rem;
+}
+
+#rss-icon svg {
+	width: 1.4rem;
+}

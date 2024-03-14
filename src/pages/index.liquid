@@ -1,0 +1,20 @@
+---
+layout: base.liquid
+title: Home
+eleventyExcludeFromCollections: true
+pagination:
+  data: collections.all
+  size: 20
+---
+
+<div>
+
+  {%- for post in pagination.items reversed -%}
+
+    {% include "list" %}
+
+  {%- endfor -%}
+
+  {% include "pagination" %}
+
+</div>

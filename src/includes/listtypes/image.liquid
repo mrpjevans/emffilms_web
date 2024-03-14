@@ -1,0 +1,22 @@
+<div class="row index-item">
+
+  <div class="col-md-1 post-type d-none d-md-block">
+    {% include 'icons/image.liquid' %}
+  </div>
+
+  <div class="col-md-11">
+    {% assign url = "posts/images/" | append: post.data.image %}
+    <a href="{{ post.page.url }}">
+      {% image url post.data.imageAlt "(min-width: 30em) 50vw, 100vw" page %}
+    </a>
+
+    <a href="{{ post.page.url }}">{{ post.data.title }}</a>
+    <span class="meta-date">{{ post.date | date: "%d %b %Y" }}</span>
+    <p>{{ post.content | strip_html | truncate: 200 | remove: post.data.title }}<br/>
+      {% for tag in post.data.tags %}
+        <a href="/tags/{{ tag }}" class="badge rounded-pill text-bg-primary">{{ tag }}</a>
+      {% endfor %}
+    </p>
+  </div>
+
+</div>

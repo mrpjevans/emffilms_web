@@ -1,0 +1,23 @@
+---
+pagination:
+  data: collections.tagList
+  size: 1
+  alias: tag
+permalink: "/tags/{{ tag }}/"
+eleventyExcludeFromCollections: true
+layout: base.liquid
+---
+
+<div>
+
+  <h1>Tagged '{{ tag }}'</h1>
+
+  {%- for post in collections[tag] reversed -%}
+
+    {% include "list" %}
+
+  {%- endfor -%}
+
+</div>
+
+{% include "home" %}

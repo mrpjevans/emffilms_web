@@ -1,0 +1,13 @@
+{
+	"title": "Mr PJ Evans",
+	"url": "https://mrpjevans.com/",
+	"author": {
+		"name": "PJ Evans"
+	},
+	"feed": {
+		"filename": "feed.xml",
+		"path": "/feed/feed.xml",
+		"url": "https://mrpjevans.com/feed/feed.xml",
+		"id": "https://mrpjevans.com/"
+	}
+}

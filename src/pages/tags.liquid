@@ -1,0 +1,20 @@
+---
+layout: base.liquid
+title: Tags
+eleventyExcludeFromCollections: true
+---
+
+<h1>Tags</h1>
+
+<div class="row">
+  <div class="col mb-3">
+    {% for tag in collections.tagList %}
+      <a class="btn btn-primary me-2" href="/tags/{{ tag }}">
+        {{ tag }}&nbsp;
+        <span class="badge text-bg-secondary">{{ collections[tag].length }}</span>
+      </a>
+    {% endfor %}
+  </div>
+</div>
+
+{% include "home" %}
