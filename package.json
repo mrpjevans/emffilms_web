@@ -1,5 +1,5 @@
 {
-  "name": "mrpjevans24",
+  "name": "emffilms-web",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,8 +10,8 @@
 		"deploy": "./deploy.sh"
   },
   "keywords": [],
-  "author": "",
-  "license": "UNLICENSED",
+  "author": "PJ Evans <pj@mrpjevans.com>",
+  "license": "MIT",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1"
   },

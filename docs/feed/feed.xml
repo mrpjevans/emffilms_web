@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>EMF Films</title>
+  <link href="https://emffilms.org/feed/feed.xml" rel="self"/>
+  <link href="https://emffilms.org/"/>
+  <updated>2024-03-14T15:20:25Z</updated>
+  <id>https://emffilms.org/</id>
+  <author>
+    <name>PJ Evans</name>
+  </author>
+  
+  <entry>
+    <title>What&#39;s The (Decimal) Point?</title>
+    <link href="https://emffilms.org/whats-the-point/"/>
+    <updated>2024-03-14T15:03:18Z</updated>
+    <id>https://emffilms.org/whats-the-point/</id>
+    <content type="html">&lt;p&gt;&lt;em&gt;A cautionary tale of a bug that wasn’t (yet was)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;I’m currently working with a team helping an industrial textile manufacturer based in Lyon, France. Part of the job is working with a CSV file (isn’t it always) and translating the data into JSON so it’s usable by Elasticsearch. All has been going well until the other day when our P.O. found something weird.&lt;/p&gt;
+&lt;p&gt;The CSV in question is a list of material rolls material that are currently in the warehouse. We convert the data so it is rendered on a rather lovely website (you can tell I didn’t design it) so it can be easily searched. Common to every roll are attributes like type, colour, width and length. Today it was the width that had us scratching our heads.&lt;/p&gt;
+&lt;p&gt;Up to now we had been happily displaying the width in meters, yet a latest export from their systems, a roll had turned up that was 900 meters wide. Now, I can’t say I know much about the textile industry but even I was struggling with the fact that somewhere in the warehouse was lurking a roll of material NEARLY ONE KILOMETER WIDE. That surely would cause issues, or collapse into a black hole of some kind.&lt;/p&gt;
+&lt;p&gt;&amp;quot;Of course&amp;quot;, I said, &amp;quot;it’s a data error. I’ll have a look at import file.&amp;quot;&lt;/p&gt;
+&lt;p&gt;Sure enough, I found the roll in question and it stated 900 meters. &amp;quot;Ha! Someone’s goofed&amp;quot; I thought, not quite realising at this point that someone had indeed goofed, and that person was me.&lt;/p&gt;
+&lt;p&gt;I looked at the other rolls in the file. All were the normal one to three meters in width. Some were 1.200, other 2.300 and so on. So, I reasoned, it was more likely that this roll was maybe 900 millimetres rather than the distance of a recommended daily walk. If that’s the case why on earth are the others in meters?&lt;/p&gt;
+&lt;p&gt;Of course, they were not.&lt;/p&gt;
+&lt;p&gt;This particular &lt;em&gt;rosbif&lt;/em&gt; had completely forgotten that is perfectly normal in France and other countries to use ‘.’ as the thousands separator and ‘,’ as the decimal point. All the widths were in millimetres. However, and here’s the kicker, as most were one to three meters, the data had been correct all this time by accident, as we took the period to be the decimal point, which is right if you want to divide by one thousand. Only when something less than a thousand showed up did the bug manifest. A quick line of sanitising code to remove the period and treat everything as millimetres and our 900 meter frankenroll was shrunk down to size.&lt;/p&gt;
+&lt;p&gt;The moral of this story is, when working with ‘punctuated’ numbers, be always sure to ask someone “What’s the (decimal) point?”.&lt;/p&gt;
+</content>
+  </entry>
+</feed>

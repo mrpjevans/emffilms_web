@@ -4,9 +4,9 @@ const pluginImages = require("./eleventy.config.images.js");
 const pluginDrafts = require("./eleventy.config.drafts.js");
 
 module.exports = function (eleventyConfig) {
-	eleventyConfig.addPassthroughCopy("src/css/mrpjevans.css");
-	eleventyConfig.addPassthroughCopy("./pj-blog-logo-256.png");
-	eleventyConfig.addPassthroughCopy("./pj-blog-logo-512.png");
+	eleventyConfig.addPassthroughCopy("src/css/emffilms.css");
+	eleventyConfig.addPassthroughCopy("./emffilms-logo-256.png");
+	eleventyConfig.addPassthroughCopy("./emffilms-logo-512.png");
 
 	eleventyConfig.addPlugin(pluginRss);
 	eleventyConfig.addPlugin(pluginDrafts);
@@ -28,7 +28,7 @@ module.exports = function (eleventyConfig) {
 			includes: "../includes",
 			layouts: "../layouts",
 			data: "../data",
-			output: "dist",
+			output: "docs",
 		},
 		templateFormats: ["html", "liquid", "md", "njk"],
 	};
