@@ -36,7 +36,10 @@
           <header>
             <nav class="navbar navbar-expand-lg border-bottom border-body">
               <div class="container-fluid">
-                <a class="navbar-brand logo" href="/">Electromagnetic FILM 2024</a>
+                <a
+                  class="navbar-brand logo"
+                  href="/"
+                  id="logo">Electromagnetic FILM 2024</a>
 
                 <div>
                   <div>
@@ -94,6 +97,22 @@
       </div>
 
     </div>
+
+    <script>
+      			function changeIt() {
+
+      				const delay = Math.floor(Math.random() * 10) * 2000;
+      				setTimeout(() => {
+      					document.getElementById('logo').innerText = "HACK THE PLANET"			
+      								setTimeout(() => {
+      									document.getElementById('logo').innerText = "Electromagnetic FILM 2024"
+      												changeIt()
+      								}, 150)
+      				}, delay)
+      							
+      			}
+      				changeIt()
+    </script>
 
   </body>
 </html>
