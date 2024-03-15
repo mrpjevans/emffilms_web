@@ -1,0 +1,82 @@
+---
+layout: base.liquid
+pagination:
+    data: schedule.films
+    size: 1
+    alias: film
+permalink: "films/{{ film.slug }}/"
+---
+
+<div class="row mt-5">
+
+  <div class="col-md-6 col-sm-12 text-center">
+    {% assign url = "../images/" | append: film.image %}
+    {% image url "Poster" "(min-width: 30em) 50vw, 100vw" page %}
+
+  </div>
+
+  <div class="col-md-6 col-sm-12">
+    <div class="datetime">
+      {{ film.showing.day }} {{ film.showing.text }}
+    </div>
+
+    <h1>{{ film.title }}</h1>
+
+    <div class="time-and-cert">
+      {{ film.year }} - {{ film.runTime.text }} - {{ film.certificate }}
+    </div>
+
+    <div class="filminfos">
+      <div class="filminfo" v-if="film.precis.special">
+        <div class="property"></div>
+        <div class="value">
+          <strong>{{ film.precis.special }}</strong>
+          {% if film.precis.qa %}
+            <a href="{{ film.precis.qa }}">Submit a question</a>
+          {% endif %}
+        </div>
+      </div>
+      <div class="filminfo">
+        <div class="property">
+          Director
+        </div>
+        <div class="value">
+          {{ film.director }}
+        </div>
+      </div>
+      <div class="filminfo">
+        <div class="property">
+          Starring
+        </div>
+        <div class="value">
+          {% for actor in film.starring %}
+            <span class="actor">{{ actor }}</span>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="filminfo">
+        <div class="property">
+          IMDB
+        </div>
+        <div class="value long-url">
+          <a href="{{ film.imdb }}">{{ film.imdb }}</a>
+        </div>
+      </div>
+      <div class="filminfo">
+        <div class="property">
+          Trailer
+        </div>
+        <div class="value long-url">
+          <a href="{{ film.trailer }}">{{ film.trailer }}</a>
+        </div>
+      </div>
+      <div class="filminfo">
+        <div class="property"></div>
+        <div class="value">
+          {{ film.precis.full }}
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>

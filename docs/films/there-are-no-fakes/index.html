@@ -1,6 +1,3 @@
----
-title: None
----
 
 <!DOCTYPE html>
 <html lang="en">
@@ -8,6 +5,18 @@ title: None
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Film programme for Electromagentic File 2024">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap"
+      rel="stylesheet"
+      rel="preload"
+      as="style">
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -28,7 +37,7 @@ title: None
       title="EMF Films RSS Feed"
       href="https://emffilms.org/feed/feed.xml" />
 
-    <title>EMF Films | {{ title }}</title>
+    <title>EMF Films | None</title>
   </head>
   <body data-bs-theme="dark">
 
@@ -39,17 +48,12 @@ title: None
           <header>
             <nav class="navbar navbar-expand-lg border-bottom border-body">
               <div class="container-fluid">
-                <a class="navbar-brand logo" href="/">Electromagnetic FILM 2024</a>
-
+                <a class="navbar-brand logo" href="/">EMF Films 2024</a>
                 <div>
                   <div>
-
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link {% if page.fileSlug == 'about' %}active{% endif %}" href="/about">About</a>
-                      </li>
-                    </ul>
-
+                    <!--
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">                      <li class="nav-item">                      <a class="nav-link " href="/tags">Tags</a>                  </li>                <li class="nav-item">                <a class="nav-link " href="/about">About</a>            </li>        </ul>
+                  -->
                   </div>
                 </div>
               </div>
@@ -59,28 +63,29 @@ title: None
         </div>
 
         <main>
-          {{ content }}
+          
+There Are No Fakes
         </main>
 
 
         <div class="row justify-content-md-center p-0">
 
-          <footer class="col-12 mb-5">
+          <footer class="col-12">
 
             <hr>
 
-            {% if title != 'Home' %}
-              <a href="/">Home</a>
-            {% endif %}
-
-            <div class="float-end">
-              <a
-                id="rss-icon"
-                href="/feed/feed.xml"
-                aria-label="RSS Feed">
-                {% include 'icons/rss' %}
-              </a>
-            </div>
+            <a
+              id="rss-icon"
+              href="/feed/feed.xml"
+              aria-label="RSS Feed">
+              <svg
+  xmlns="http://www.w3.org/2000/svg"
+  fill="currentColor"
+  class="bi bi-rss-fill"
+  viewBox="0 0 16 16">
+  <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm1.5 2.5c5.523 0 10 4.477 10 10a1 1 0 1 1-2 0 8 8 0 0 0-8-8 1 1 0 0 1 0-2m0 4a6 6 0 0 1 6 6 1 1 0 1 1-2 0 4 4 0 0 0-4-4 1 1 0 0 1 0-2m.5 7a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3" />
+</svg>
+            </a>
 
           </footer>
 

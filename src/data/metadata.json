@@ -1,8 +1,8 @@
 {
 	"title": "EMF Films",
-	"url": "https://emffilms.org/",
+	"url": "https://emffilms.org/films/",
 	"author": {
-		"name": "PJ Evans"
+		"name": "EMF Films Team"
 	},
 	"feed": {
 		"filename": "feed.xml",

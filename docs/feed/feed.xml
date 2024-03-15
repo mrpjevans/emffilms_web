@@ -2,28 +2,114 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>EMF Films</title>
   <link href="https://emffilms.org/feed/feed.xml" rel="self"/>
-  <link href="https://emffilms.org/"/>
-  <updated>2024-03-14T15:20:25Z</updated>
-  <id>https://emffilms.org/</id>
+  <link href="https://emffilms.org/films/"/>
+  <updated>2024-03-15T16:08:31Z</updated>
+  <id>https://emffilms.org/films/</id>
   <author>
-    <name>PJ Evans</name>
+    <name>EMF Films Team</name>
   </author>
   
   <entry>
-    <title>What&#39;s The (Decimal) Point?</title>
-    <link href="https://emffilms.org/whats-the-point/"/>
-    <updated>2024-03-14T15:03:18Z</updated>
-    <id>https://emffilms.org/whats-the-point/</id>
-    <content type="html">&lt;p&gt;&lt;em&gt;A cautionary tale of a bug that wasn’t (yet was)&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;I’m currently working with a team helping an industrial textile manufacturer based in Lyon, France. Part of the job is working with a CSV file (isn’t it always) and translating the data into JSON so it’s usable by Elasticsearch. All has been going well until the other day when our P.O. found something weird.&lt;/p&gt;
-&lt;p&gt;The CSV in question is a list of material rolls material that are currently in the warehouse. We convert the data so it is rendered on a rather lovely website (you can tell I didn’t design it) so it can be easily searched. Common to every roll are attributes like type, colour, width and length. Today it was the width that had us scratching our heads.&lt;/p&gt;
-&lt;p&gt;Up to now we had been happily displaying the width in meters, yet a latest export from their systems, a roll had turned up that was 900 meters wide. Now, I can’t say I know much about the textile industry but even I was struggling with the fact that somewhere in the warehouse was lurking a roll of material NEARLY ONE KILOMETER WIDE. That surely would cause issues, or collapse into a black hole of some kind.&lt;/p&gt;
-&lt;p&gt;&amp;quot;Of course&amp;quot;, I said, &amp;quot;it’s a data error. I’ll have a look at import file.&amp;quot;&lt;/p&gt;
-&lt;p&gt;Sure enough, I found the roll in question and it stated 900 meters. &amp;quot;Ha! Someone’s goofed&amp;quot; I thought, not quite realising at this point that someone had indeed goofed, and that person was me.&lt;/p&gt;
-&lt;p&gt;I looked at the other rolls in the file. All were the normal one to three meters in width. Some were 1.200, other 2.300 and so on. So, I reasoned, it was more likely that this roll was maybe 900 millimetres rather than the distance of a recommended daily walk. If that’s the case why on earth are the others in meters?&lt;/p&gt;
-&lt;p&gt;Of course, they were not.&lt;/p&gt;
-&lt;p&gt;This particular &lt;em&gt;rosbif&lt;/em&gt; had completely forgotten that is perfectly normal in France and other countries to use ‘.’ as the thousands separator and ‘,’ as the decimal point. All the widths were in millimetres. However, and here’s the kicker, as most were one to three meters, the data had been correct all this time by accident, as we took the period to be the decimal point, which is right if you want to divide by one thousand. Only when something less than a thousand showed up did the bug manifest. A quick line of sanitising code to remove the period and treat everything as millimetres and our 900 meter frankenroll was shrunk down to size.&lt;/p&gt;
-&lt;p&gt;The moral of this story is, when working with ‘punctuated’ numbers, be always sure to ask someone “What’s the (decimal) point?”.&lt;/p&gt;
-</content>
+    <title>Fyre</title>
+    <link href="https://emffilms.org/films/fyre"/>
+    <updated>2022-06-02T20:00:00+01:00</updated>
+    <id>https://emffilms.org/films/fyre</id>
+    <content type="html">
+			<p>Thursday 2nd June 20:00</p>
+			<p>2018 - 1h 37 - 15</p>
+			<p>Just be glad you&#39;re here and not there</p>
+			<p>Fyre is a documentary unveiling the story behind the catastrophe that was The Fyre Festival. In 2017 con-artist Billy McFarland and rapper Ja Rule aimed to stage the coolest party of a generation. An exclusive guest list of influencers and celebrities were invited to an island formally owned by drugs baron Pablo Escobar. As the date drew nearer, the nightmare began to unfold. Watch through your fingers as the whole enterprise collapses. Corruption, fraud and outright lies come together to give the guests a night they would never forget, for all the wrong reasons.</p>
+		</content>
+  </entry>
+  
+  <entry>
+    <title>There Are No Fakes</title>
+    <link href="https://emffilms.org/films/nofakes"/>
+    <updated>2022-06-02T22:00:00+01:00</updated>
+    <id>https://emffilms.org/films/nofakes</id>
+    <content type="html">
+			<p>Thursday 2nd June 22:00</p>
+			<p>2019 - 1h 53 - Unrated</p>
+			<p>The tragic, brutal world of an art forgery ring in Canada&#39;s far north.</p>
+			<p>When Kevin Hearn (of Canadian indie legends Barenaked Ladies) bought a painting by the late indigenous artist Norval Morrisseau, he never guessed that it would start a chain reaction that would end up in places you would not believe. When loaned to an art gallery for a retrospective, the painting was exposed as being a forgery. But was it? When Hearne sued the gallery that sold him the Morrisseau, war broke out between artists and collectors. Following the money reveals a secret world of drugs, money laundering and human trafficking. You won&#39;t believe what happens when you &#39;Just wanted to buy a painting&#39;.</p>
+		</content>
+  </entry>
+  
+  <entry>
+    <title>General Magic</title>
+    <link href="https://emffilms.org/films/generalmagic"/>
+    <updated>2022-06-03T19:30:00+01:00</updated>
+    <id>https://emffilms.org/films/generalmagic</id>
+    <content type="html">
+			<p>Friday 3rd June 19:30</p>
+			<p>2018 - 1h 33 - 12A</p>
+			<p>The greatest tech company you&#39;ve probably never heard of</p>
+			<p>How do you think that smartphone got in your pocket? Who had the vision and determination to create the future? Many would think Apple, but it was actually an Apple offshoot, General Magic, that laid the foundations for the always-on world we live in today. This engaging documentary tells the story of a gang of dedicated geeks who set out to create the future and their fate at the hands of Apple and others. You&#39;ll see some familiar faces and a glimpse into how our future was shaped.</p>
+		</content>
+  </entry>
+  
+  <entry>
+    <title>Hackers</title>
+    <link href="https://emffilms.org/films/hackers"/>
+    <updated>2022-06-03T23:00:00+01:00</updated>
+    <id>https://emffilms.org/films/hackers</id>
+    <content type="html">
+			<p>Friday 3rd June 23:00</p>
+			<p>1995 - 1h 41 - 12</p>
+			<p>In this geek classic hackers are blamed for making a virus that will capsize five oil tankers.</p>
+			<p>Do we even need to write this blurb? Geek classic Hackers returns after four years. Legendary hacker Zero Cool and his friends have been framed by The Plague, who has unleashed a computer virus that could cause an environmental disaster. Pursued by the Secret Service, the gang try to gather the evidence to take The Plague down and stop the virus from unleashing havoc. A bumper-fest of hacking, car chases and double-crossing that has become lore in geek culture. Endlessly quotable and a highlight of EMF 2018.</p>
+		</content>
+  </entry>
+  
+  <entry>
+    <title>Interstellar</title>
+    <link href="https://emffilms.org/films/interstellar"/>
+    <updated>2022-06-04T19:30:00+01:00</updated>
+    <id>https://emffilms.org/films/interstellar</id>
+    <content type="html">
+			<p>Saturday 4th June 19:30</p>
+			<p>2014 - 2h 49 - 12</p>
+			<p>An epic adventure through time and space as humankind tries to find a new home.</p>
+			<p>Christopher Nolan&#39;s classic comes to Electromagnetic Field. A dying Earth is being slowly choked by dust storms and food is running out. An engineer turned farmer tries to support his family but struggles to see a future for his son, daughter and father. A chance encounter reveals a new path that returns him to his former life and takes him across galaxies in search a new world for humankind. Amazing special effects and a rich story are underpinned by a magnificent soundtrack by Hans Zimmer.  An epic in the true sense of the word that must be seen on a big screen.</p>
+		</content>
+  </entry>
+  
+  <entry>
+    <title>The Barkley Marathons</title>
+    <link href="https://emffilms.org/films/barkley"/>
+    <updated>2022-06-04T23:30:00+01:00</updated>
+    <id>https://emffilms.org/films/barkley</id>
+    <content type="html">
+			<p>Saturday 4th June 23:30</p>
+			<p>2014 - 1h 29 - Unrated</p>
+			<p>Documentary that follows those undertaking a 100 mile ultramarathon in the craziest circumstances</p>
+			<p>One of those films that slacks your jaw in the first five minutes and then it just gets worse. The Barkley Marathons is a documentary on the now-famous ultramarathon that takes place every year in Tennessee. Participants aim to complete five laps of a twenty-mile course through the woods that has no proper trail, using maps and compass. Some think the course is actually much longer. Even entering the event is a challenge with requirements being a closely guarded secret. Every year, 40 runners attempt to complete the course and usually none succeed. A fascinating look into what drives people, sometimes to the edge of sanity.</p>
+		</content>
+  </entry>
+  
+  <entry>
+    <title>The Speed Cubers</title>
+    <link href="https://emffilms.org/films/speedcubers"/>
+    <updated>2022-06-05T20:30:00+01:00</updated>
+    <id>https://emffilms.org/films/speedcubers</id>
+    <content type="html">
+			<p>Sunday 5th June 20:30</p>
+			<p>2020 - 39 minutes - PG</p>
+			<p>Discover the special bond - and uncommon competitive spirit - shared by the world&#39;s Rubik&#39;s Cube-solving record breakers in this documentary.</p>
+			<p>How long did it take you to solve your first Rubik’s Cube? Did you ever? A speed cuber can do it in about eight seconds. This heartwarming documentary follows two of the greatest ‘cubers’ in history during the build up to the world championships. One king of the cube versus the upstart newcomer. What we find is not a typical cut-throat competition but friendship, kindness and a champion who embraces their autism as a superpower. This is a short but life-affirming journey with some amazing cube-solving skills.</p>
+		</content>
+  </entry>
+  
+  <entry>
+    <title>Sneakers</title>
+    <link href="https://emffilms.org/films/sneakers"/>
+    <updated>2022-06-05T21:30:00+01:00</updated>
+    <id>https://emffilms.org/films/sneakers</id>
+    <content type="html">
+			<p>Sunday 5th June 21:30</p>
+			<p>1992 - 2h 06 - 12</p>
+			<p>A security pro finds his past coming back to haunt him, when he and his unique team are tasked with retrieving a particularly important item.</p>
+			<p>Our second geek classic of Electromagnetic Field. A hacker heads a group of specialists who test the security of various San Francisco companies. National Security Agency officers ask them to steal a newly invented decoder. The team discover that the black box can crack any encryption code, posing a huge threat if it lands in the wrong hands. When they realises the NSA men who approached him are rogue agents, they are framed for the murder of the device&#39;s inventor. A classic and celebrating its 30th anniversary.</p>
+		</content>
   </entry>
 </feed>

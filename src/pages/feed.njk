@@ -13,14 +13,19 @@ eleventyExcludeFromCollections: true
   <author>
     <name>{{ metadata.author.name }}</name>
   </author>
-  {%- for post in collections.all | reverse %}
-  {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
+  {%- for film in schedule.films %}
+  {% set absolutePostUrl %}{{ film.slug | url | absoluteUrl(metadata.url) }}{% endset %}
   <entry>
-    <title>{{ post.data.title }}</title>
+    <title>{{ film.title }}</title>
     <link href="{{ absolutePostUrl }}"/>
-    <updated>{{ post.date | dateToRfc3339 }}</updated>
+    <updated>{{ film.showing.timestamp }}</updated>
     <id>{{ absolutePostUrl }}</id>
-    <content type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
+    <content type="html">
+			<p>{{ film.showing.day }} {{ film.showing.text }}</p>
+			<p>{{ film.year }} - {{ film.runTime.text }} - {{ film.certificate }}</p>
+			<p>{{ film.precis.oneLine }}</p>
+			<p>{{ film.precis.full }}</p>
+		</content>
   </entry>
   {%- endfor %}
 </feed>

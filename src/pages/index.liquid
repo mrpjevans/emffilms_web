@@ -2,19 +2,27 @@
 layout: base.liquid
 title: Home
 eleventyExcludeFromCollections: true
-pagination:
-  data: collections.all
-  size: 20
 ---
 
-<div>
+<div class="row">
 
-  {%- for post in pagination.items reversed -%}
+  {%- for film in schedule.films -%}
 
-    {% include "list" %}
+    <div class="col-sm-12 col-md-4">
 
+      <a href="/films/{{ film.slug }}">
+        <div class="text-center">
+          <h2 class="text-uppercase">{{ film.title }}</h2>
+          <p class="film-time">{{ film.showing.day }} {{ film.showing.text }}</p>
+        </div>
+        <div>
+          {% assign url = "../images/" | append: film.image %}
+          {% image url "Poster" "(min-width: 30em) 50vw, 100vw" page %}
+        </div>
+      </a>
+
+
+    </div>
   {%- endfor -%}
-
-  {% include "pagination" %}
 
 </div>

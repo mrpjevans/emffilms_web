@@ -1,1 +1,0 @@
-{% image "./image.jpeg" imageAlt "(min-width: 30em) 50vw, 100vw" page %}

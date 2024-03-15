@@ -1,54 +1,43 @@
+@font-face {
+	font-family: 'Confidential';
+	src: url('Confidential.woff2') format('woff2'),
+			url('Confidential.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+HTML, BODY {
+	background-color: #151735;
+	padding: 0;
+	margin: 0;
+	color: white;
+	font-family: Arial
+}
+
 .logo, .backlink a {
-	font-family: 'Nothing You Could Do', cursive;
+	font-family: 'Confidential', Arial;
+	font-size: 3rem;
+	font-weight: 300;
+}
+
+H1 {
+	font-size: 4em;
+}
+
+H2 {
+	font-size: 1.2rem;
+	margin: 1rem 0 0 0;
+	color: #30D9E6;
+}
+
+.film-time {
+	font-size: 0.8rem;
+	color: #BAC2C9;
 }
 
 a {
 	text-decoration: none;
-}
-
-.backlink a {
-	font-size: 1.2rem;
-}
-
-.backlink {
-	margin: 1rem 0 1rem 0;
-}
-
-.post-type {
-	text-align: center;
-}
-
-.post-type svg {
-	width: 2.5vh;
-	height: auto;
-	margin: 0.5rem 0 0 0;
-}
-
-.index-item {
-	margin: 2rem 0 1rem 0;
-}
-
-.meta-date {
-	font-style: italic;
-	color: silver;
-	font-size: 0.8rem;
-}
-
-h1 {
-	font-family: Coustard, system-ui, Helvetica, sans-serif;
-	font-size: 1.7rem;
-	text-align: center;
-	margin: 1.5rem 0 1.5rem 0;
-}
-
-.h1-with-date {
-	margin: 1.5rem 0 0 0;
-}
-
-p {
-	font-family: Poppins, system-ui, Helvetica, sans-serif;
-	font-size: 0.9rem;
-	line-height: 1.5rem;
 }
 
 img {
@@ -62,21 +51,63 @@ img[width][height] {
   height: auto; /* Preserve aspect ratio */
 }
 
-.footer {
-	font-style: italic;
+footer {
 	color: silver;
-	font-size: 0.8rem;
+	font-size: 2rem;
 	line-height: 28px;
 }
 
-.cc {
-	float:right;
-}
-
-.cc img {
-	height: 1.5rem;
+footer a {
+	font-family: 'Confidential', Arial, Helvetica, sans-serif
 }
 
 #rss-icon svg {
 	width: 1.4rem;
 }
+
+.datetime {
+	font-size: 2em;
+	font-family: 'Confidential', Arial;
+}
+
+.time-and-cert {
+	font-size: 0.8em;
+	color: #BAC2C9;
+}
+
+.filminfos {
+	padding-top: 20px;
+}
+
+.filminfo {
+	padding: 6px 0 6px 0;
+	flex-direction: column;
+}
+
+.filminfo .property {
+	min-width: 100px;
+	color: #FEA82F;
+	font-weight: bold;
+	font-size: 0.7em;
+	text-transform: uppercase;
+	margin-bottom: 4px;
+}
+
+.filminfo .value {
+	margin-bottom: 4px;
+	line-height: 1.5em;
+}
+
+A {
+	color: #AEC5EA;
+	text-decoration: none;
+}
+
+.actor::after {
+	content: ", ";
+}
+
+.actor:last-child::after {
+	content: "";
+}
+

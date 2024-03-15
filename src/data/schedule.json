@@ -1,0 +1,275 @@
+{
+    "schemaVersion": 1,
+    "films": [
+        {
+            "display": false,
+            "slug": "fyre",
+            "title": "Fyre",
+            "director": "Chris Smith",
+            "year": 2018,
+            "certificate": "15",
+            "poster": "https://www.imdb.com/title/tt9412098/mediaviewer/rm1932421632/",
+            "image": "fyre.jpg",
+            "starring": [
+                "Billy McFarland",
+                "Ja Rule"
+            ],
+            "precis": {
+                "full": "Fyre is a documentary unveiling the story behind the catastrophe that was The Fyre Festival. In 2017 con-artist Billy McFarland and rapper Ja Rule aimed to stage the coolest party of a generation. An exclusive guest list of influencers and celebrities were invited to an island formally owned by drugs baron Pablo Escobar. As the date drew nearer, the nightmare began to unfold. Watch through your fingers as the whole enterprise collapses. Corruption, fraud and outright lies come together to give the guests a night they would never forget, for all the wrong reasons.",
+                "oneLine": "Just be glad you're here and not there",
+                "special": "Showing only if venue is ready and safe"
+            },
+            "tagline": "The Greatest Party That Never Happened",
+            "showing": {
+                "timestamp": "2022-06-02T20:00:00+01:00",
+                "text": "2nd June 20:00",
+                "day": "Thursday"
+            },
+            "imdb": "https://www.imdb.com/title/tt9412098/",
+            "trailer": "https://www.youtube.com/watch?v=uZ0KNVU2fV0",
+            "runTime": {
+                "minutes": 97,
+                "text": "1h 37"
+            }
+        },
+        {
+            "display": false,
+            "slug": "nofakes",
+            "title": "There Are No Fakes",
+            "director": "Jamie Kastner",
+            "year": 2019,
+            "certificate": "Unrated",
+            "poster": "https://www.imdb.com/title/tt8674506/mediaviewer/rm1429511425/",
+            "image": "nofakes.jpg",
+            "starring": [
+                "Kevin Hearn",
+                "Jonathan Sommer",
+                "Jim White"
+            ],
+            "precis": {
+                "full": "When Kevin Hearn (of Canadian indie legends Barenaked Ladies) bought a painting by the late indigenous artist Norval Morrisseau, he never guessed that it would start a chain reaction that would end up in places you would not believe. When loaned to an art gallery for a retrospective, the painting was exposed as being a forgery. But was it? When Hearne sued the gallery that sold him the Morrisseau, war broke out between artists and collectors. Following the money reveals a secret world of drugs, money laundering and human trafficking. You won't believe what happens when you 'Just wanted to buy a painting'.",
+                "oneLine": "The tragic, brutal world of an art forgery ring in Canada's far north.",
+                "special": "Showing only if venue is ready and safe"
+            },
+            "tagline": "When buying a painting unravels a hidden world of WTF?",
+            "showing": {
+                "timestamp": "2022-06-02T22:00:00+01:00",
+                "text": "2nd June 22:00",
+                "day": "Thursday"
+            },
+            "imdb": "https://www.imdb.com/title/tt8674506/",
+            "trailer": "https://www.youtube.com/watch?v=1ZMKLNPCyFI",
+            "runTime": {
+                "minutes": 117,
+                "text": "1h 53"
+            }
+        },
+        {
+            "display": true,
+            "slug": "generalmagic",
+            "title": "General Magic",
+            "director": "Sarah Kerruish, Matt Maude",
+            "year": 2018,
+            "certificate": "12A",
+            "poster": "https://www.imdb.com/title/tt6849786/mediaviewer/rm1243127297/",
+            "image": "generalmagic.jpg",
+            "starring": [
+                "Tony Fadell",
+                "Andy Hertzfeld",
+                "Marc Porat",
+                "John Sculley",
+                "Megan Smith"
+            ],
+            "precis": {
+                "full": "How do you think that smartphone got in your pocket? Who had the vision and determination to create the future? Many would think Apple, but it was actually an Apple offshoot, General Magic, that laid the foundations for the always-on world we live in today. This engaging documentary tells the story of a gang of dedicated geeks who set out to create the future and their fate at the hands of Apple and others. You'll see some familiar faces and a glimpse into how our future was shaped.",
+                "oneLine": "The greatest tech company you've probably never heard of",
+                "special": "Directors Sarah Kerruish & Matt Maude will join us online to introduce the film and answer your questions after the screening.",
+                "qa": "https://forms.gle/tKuNEnokUb5ccmD69"
+            },
+            "tagline": "Inside every pocket there's a little piece of Magic",
+            "showing": {
+                "timestamp": "2022-06-03T19:30:00+01:00",
+                "text": "3rd June 19:30",
+                "day": "Friday"
+            },
+            "imdb": "https://www.imdb.com/title/tt6849786/",
+            "trailer": "https://www.youtube.com/watch?v=uTdyb-RWNKo",
+            "runTime": {
+                "minutes": 93,
+                "text": "1h 33"
+            }
+        },
+        {
+            "display": true,
+            "slug": "hackers",
+            "title": "Hackers",
+            "director": "Iain Softley",
+            "year": 1995,
+            "certificate": "12",
+            "poster": "https://www.imdb.com/title/tt0113243/mediaviewer/rm3977202176/",
+            "image": "hackers.jpg",
+            "starring": [
+                "Jonny Lee Miller",
+                "Angelina Jolie",
+                "Matthew Lillard",
+                "Jesse Bradford",
+                "Peter Y. Kim",
+                "Darren Lee",
+                "Lorraine Bracco",
+                "Ethan Browne",
+                "Renoly Santiago",
+                "Laurence Mason",
+                "Alberta Watson",
+                "Fisher Stevens"
+            ],
+            "precis": {
+                "full": "Do we even need to write this blurb? Geek classic Hackers returns after four years. Legendary hacker Zero Cool and his friends have been framed by The Plague, who has unleashed a computer virus that could cause an environmental disaster. Pursued by the Secret Service, the gang try to gather the evidence to take The Plague down and stop the virus from unleashing havoc. A bumper-fest of hacking, car chases and double-crossing that has become lore in geek culture. Endlessly quotable and a highlight of EMF 2018.",
+                "oneLine": "In this geek classic hackers are blamed for making a virus that will capsize five oil tankers.",
+                "specialx": "Director Iain Softley returns to Electromagnetic Field to answer your questions in a Q&A before the film."
+            },
+            "tagline": "HACK THE PLANET!",
+            "showing": {
+                "timestamp": "2022-06-03T23:00:00+01:00",
+                "text": "3rd June 23:00",
+                "day": "Friday"
+            },
+            "imdb": "https://www.imdb.com/title/tt0113243/",
+            "trailer": "https://www.youtube.com/watch?v=Rn2cf_wJ4f4",
+            "runTime": {
+                "minutes": 101,
+                "text": "1h 41"
+            }
+        },
+        {
+            "display": true,
+            "slug": "interstellar",
+            "title": "Interstellar",
+            "director": "Christopher Nolan",
+            "year": 2014,
+            "certificate": "12",
+            "poster": "https://www.imdb.com/title/tt0816692/mediaviewer/rm4043724800/",
+            "image": "interstellar.jpg",
+            "starring": [
+                "Matthew McConaughey",
+                "Anne Hathaway",
+                "Jessica Chastain",
+                "Mackenzie Foy",
+                "John Lithgow",
+                "Michael Caine"
+            ],
+            "precis": {
+                "full": "Christopher Nolan's classic comes to Electromagnetic Field. A dying Earth is being slowly choked by dust storms and food is running out. An engineer turned farmer tries to support his family but struggles to see a future for his son, daughter and father. A chance encounter reveals a new path that returns him to his former life and takes him across galaxies in search a new world for humankind. Amazing special effects and a rich story are underpinned by a magnificent soundtrack by Hans Zimmer.  An epic in the true sense of the word that must be seen on a big screen.",
+                "oneLine": "An epic adventure through time and space as humankind tries to find a new home.",
+                "special": "Visual special effect artist Eugénie von Tunzelmann answers your questions about her work on Interstellar before the screening.",
+                "qa": "https://forms.gle/a2W7N5onzG9wdgvD6"
+            },
+            "tagline": "Mankind was born on Earth. It was never meant to die here.",
+            "showing": {
+                "timestamp": "2022-06-04T19:30:00+01:00",
+                "text": "4th June 19:30",
+                "day": "Saturday"
+            },
+            "imdb": "https://www.imdb.com/title/tt0816692/",
+            "trailer": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+            "runTime": {
+                "minutes": 159,
+                "text": "2h 49"
+            }
+        },
+        {
+            "display": true,
+            "slug": "barkley",
+            "title": "The Barkley Marathons",
+            "director": "Annika Iltis, Timothy James Kane",
+            "year": 2014,
+            "certificate": "Unrated",
+            "poster": "https://www.imdb.com/title/tt2400291/mediaviewer/rm2622680832/",
+            "image": "barkley.jpg",
+            "starring": [
+                "Lazarus Lake"
+            ],
+            "precis": {
+                "full": "One of those films that slacks your jaw in the first five minutes and then it just gets worse. The Barkley Marathons is a documentary on the now-famous ultramarathon that takes place every year in Tennessee. Participants aim to complete five laps of a twenty-mile course through the woods that has no proper trail, using maps and compass. Some think the course is actually much longer. Even entering the event is a challenge with requirements being a closely guarded secret. Every year, 40 runners attempt to complete the course and usually none succeed. A fascinating look into what drives people, sometimes to the edge of sanity.",
+                "oneLine": "Documentary that follows those undertaking a 100 mile ultramarathon in the craziest circumstances"
+            },
+            "tagline": "The race that eats it's young",
+            "showing": {
+                "timestamp": "2022-06-04T23:30:00+01:00",
+                "text": "4th June 23:30",
+                "day": "Saturday"
+            },
+            "imdb": "https://www.imdb.com/title/tt2400291/",
+            "trailer": "https://www.youtube.com/watch?v=79IUKC9gS-8",
+            "runTime": {
+                "minutes": 89,
+                "text": "1h 29"
+            }
+        },
+        {
+            "display": true,
+            "slug": "speedcubers",
+            "title": "The Speed Cubers",
+            "director": "Sue Kim",
+            "year": 2020,
+            "certificate": "PG",
+            "poster": "https://www.imdb.com/title/tt12038300/mediaviewer/rm1722068481/",
+            "image": "speedcubers.jpg",
+            "starring": [
+                "Max Park",
+                "Schwan Park",
+                "Phillipp Weyer"
+            ],
+            "precis": {
+                "full": "How long did it take you to solve your first Rubik’s Cube? Did you ever? A speed cuber can do it in about eight seconds. This heartwarming documentary follows two of the greatest ‘cubers’ in history during the build up to the world championships. One king of the cube versus the upstart newcomer. What we find is not a typical cut-throat competition but friendship, kindness and a champion who embraces their autism as a superpower. This is a short but life-affirming journey with some amazing cube-solving skills.",
+                "oneLine": "Discover the special bond - and uncommon competitive spirit - shared by the world's Rubik's Cube-solving record breakers in this documentary."
+            },
+            "tagline": "Competition with compassion",
+            "showing": {
+                "timestamp": "2022-06-05T20:30:00+01:00",
+                "text": "5th June 20:30",
+                "day": "Sunday"
+            },
+            "imdb": "https://www.imdb.com/title/tt12038300/",
+            "trailer": "https://www.youtube.com/watch?v=-wrTIWx_Z6k&t=12s",
+            "runTime": {
+                "minutes": 39,
+                "text": "39 minutes"
+            }
+        },
+        {
+            "display": true,
+            "slug": "sneakers",
+            "title": "Sneakers",
+            "director": "Phil Alden Robinson",
+            "year": 1992,
+            "certificate": "12",
+            "poster": "https://www.imdb.com/title/tt0105435/mediaviewer/rm2873526529/",
+            "image": "sneakers.jpg",
+            "starring": [
+                "Dan Aykroyd",
+                "Ben Kingsley",
+                "River Phoenix",
+                "Robert Redford",
+                "David Strathairn",
+                "Mary McDonnell",
+                "Sidney Poitier"
+            ],
+            "precis": {
+                "full": "Our second geek classic of Electromagnetic Field. A hacker heads a group of specialists who test the security of various San Francisco companies. National Security Agency officers ask them to steal a newly invented decoder. The team discover that the black box can crack any encryption code, posing a huge threat if it lands in the wrong hands. When they realises the NSA men who approached him are rogue agents, they are framed for the murder of the device's inventor. A classic and celebrating its 30th anniversary.",
+                "oneLine": "A security pro finds his past coming back to haunt him, when he and his unique team are tasked with retrieving a particularly important item."
+            },
+            "tagline": "Too many secrets",
+            "showing": {
+                "timestamp": "2022-06-05T21:30:00+01:00",
+                "text": "5th June 21:30",
+                "day": "Sunday"
+            },
+            "imdb": "https://www.imdb.com/title/tt0105435/",
+            "trailer": "https://www.youtube.com/watch?v=8X_yiqK_sUs",
+            "runTime": {
+                "minutes": 126,
+                "text": "2h 06"
+            }
+        }
+    ]
+}

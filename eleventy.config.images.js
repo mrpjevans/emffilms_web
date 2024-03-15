@@ -16,7 +16,7 @@ async function imageShortcode(src, alt, sizes, page) {
 	const metadata = await eleventyImage(absPath, {
 		widths: [640, 768, 1024],
 		formats: ["jpeg"],
-		outputDir: `dist/img/${timePath}`,
+		outputDir: `docs/img/${timePath}`,
 		urlPath: `/img/${timePath}`,
 		filenameFormat: function (id, src, width, format, options) {
 			const extension = path.extname(src);

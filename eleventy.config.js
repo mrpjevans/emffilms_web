@@ -5,8 +5,9 @@ const pluginDrafts = require("./eleventy.config.drafts.js");
 
 module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("src/css/emffilms.css");
-	eleventyConfig.addPassthroughCopy("./emffilms-logo-256.png");
-	eleventyConfig.addPassthroughCopy("./emffilms-logo-512.png");
+	eleventyConfig.addPassthroughCopy("src/css/Confidential.woff");
+	eleventyConfig.addPassthroughCopy("src/css/Confidential.woff2");
+	eleventyConfig.addPassthroughCopy("./favicon.jpg");
 
 	eleventyConfig.addPlugin(pluginRss);
 	eleventyConfig.addPlugin(pluginDrafts);
