@@ -3,14 +3,14 @@
   <title>EMF Films</title>
   <link href="https://emffilms.org/feed/feed.xml" rel="self"/>
   <link href="https://emffilms.org/films/"/>
-  <updated>2024-05-11T16:00:26Z</updated>
+  <updated>2024-05-11T16:17:35Z</updated>
   <id>https://emffilms.org/films/</id>
   <author>
     <name>EMF Films Team</name>
   </author>
   
   <entry>
-    <title>Dune</title>
+    <title>Dune (1984)</title>
     <link href="https://emffilms.org/films/dune"/>
     <updated>2024-05-30T20:00:00+01:00</updated>
     <id>https://emffilms.org/films/dune</id>
@@ -23,7 +23,7 @@
   </entry>
   
   <entry>
-    <title>Hackers</title>
+    <title>Hackers &amp; Q&amp;A</title>
     <link href="https://emffilms.org/films/hackers"/>
     <updated>2022-05-31T20:30:00+01:00</updated>
     <id>https://emffilms.org/films/hackers</id>
@@ -49,7 +49,7 @@
   </entry>
   
   <entry>
-    <title>Benn Wiebe and QbagYbbxHc</title>
+    <title>Benn Wiebe &amp; QbagYbbxHc</title>
     <link href="https://emffilms.org/films/qbagybbxhc"/>
     <updated>2022-06-01T20:30:00+01:00</updated>
     <id>https://emffilms.org/films/qbagybbxhc</id>
