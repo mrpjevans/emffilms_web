@@ -54,22 +54,26 @@ permalink: "films/{{ film.slug }}/"
           {% endfor %}
         </div>
       </div>
-      <div class="filminfo">
-        <div class="property">
-          IMDB
+      {% if film.imdb %}
+        <div class="filminfo">
+          <div class="property">
+            IMDB
+          </div>
+          <div class="value long-url">
+            <a href="{{ film.imdb }}">{{ film.imdb }}</a>
+          </div>
         </div>
-        <div class="value long-url">
-          <a href="{{ film.imdb }}">{{ film.imdb }}</a>
+      {% endif %}
+      {% if film.trailer %}
+        <div class="filminfo">
+          <div class="property">
+            Trailer
+          </div>
+          <div class="value long-url">
+            <a href="{{ film.trailer }}">{{ film.trailer }}</a>
+          </div>
         </div>
-      </div>
-      <div class="filminfo">
-        <div class="property">
-          Trailer
-        </div>
-        <div class="value long-url">
-          <a href="{{ film.trailer }}">{{ film.trailer }}</a>
-        </div>
-      </div>
+      {% endif %}
       <div class="filminfo">
         <div class="property"></div>
         <div class="value">

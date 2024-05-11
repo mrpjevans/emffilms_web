@@ -8,21 +8,24 @@ eleventyExcludeFromCollections: true
 
   {%- for film in schedule.films -%}
 
-    <div class="col-sm-12 col-md-4">
+    {%- if film.display %}
 
-      <a href="/films/{{ film.slug }}">
-        <div class="text-center">
-          <h2 class="text-uppercase">{{ film.title }}</h2>
-          <p class="film-time">{{ film.showing.day }} {{ film.showing.text }}</p>
-        </div>
-        <div>
-          {% assign url = "../images/" | append: film.image %}
-          {% image url "Poster" "(min-width: 30em) 50vw, 100vw" page %}
-        </div>
-      </a>
+      <div class="col-sm-12 col-md-4">
 
+        <a href="/films/{{ film.slug }}">
+          <div class="text-center">
+            <h2 class="text-uppercase">{{ film.title }}</h2>
+            <p class="film-time">{{ film.showing.day }} {{ film.showing.text }}</p>
+          </div>
+          <div>
+            {% assign url = "../images/" | append: film.image %}
+            {% image url "Poster" "(min-width: 30em) 50vw, 100vw" page %}
+          </div>
+        </a>
 
-    </div>
+      </div>
+
+    {%- endif %}
   {%- endfor -%}
 
 </div>
