@@ -1,192 +1,177 @@
 {
-    "schemaVersion": 1,
-    "films": [
-        {
-            "display": true,
-            "slug": "dune",
-            "title": "Dune (1984)",
-            "director": "David Lynch",
-            "year": 1984,
-            "certificate": "15",
-            "poster": "https://www.imdb.com/title/tt0087182/mediaviewer/rm423377408/",
-            "image": "dune.jpg",
-            "starring": [
-                "Kyle MacLachlan",
-                "Virginia Madsen",
-								"Francesca Annis"
-            ],
-            "precis": {
-                "full": "David Lunch's 1984 take on Frank Herbert's classic. Sometimes surprising, sometimes laughable, sometimes just bizarre. A Duke's son leads desert warriors against the galactic emperor and his father's evil nemesis to free their desert world from the emperor's rule.",
-                "oneLine": "Before Denis Villeneuve there was, well, this.",
-                "special": "Showing only if venue is ready and safe"
-            },
-            "tagline": "A world beyond your experience, beyond your imagination.",
-            "showing": {
-                "timestamp": "2024-05-30T20:00:00+01:00",
-                "text": "30th May 20:00",
-                "day": "Thursday"
-            },
-            "imdb": "https://www.imdb.com/title/tt0087182/",
-            "trailer": "https://www.youtube.com/watch?v=l14cIlg5Qmk",
-            "runTime": {
-                "minutes": 140,
-                "text": "2h 20"
-            }
-        },
-				{
-					"display": true,
-					"slug": "hackers",
-					"title": "Hackers & Q&A",
-					"director": "Iain Softley",
-					"year": 1995,
-					"certificate": "12",
-					"poster": "https://www.imdb.com/title/tt0113243/mediaviewer/rm3977202176/",
-					"image": "hackers.jpg",
-					"starring": [
-							"Jonny Lee Miller",
-							"Angelina Jolie",
-							"Matthew Lillard",
-							"Jesse Bradford",
-							"Peter Y. Kim",
-							"Darren Lee",
-							"Lorraine Bracco",
-							"Ethan Browne",
-							"Renoly Santiago",
-							"Laurence Mason",
-							"Alberta Watson",
-							"Fisher Stevens"
-					],
-					"precis": {
-							"full": "Do we even need to write this blurb? Geek classic Hackers returns after four years. Legendary hacker Zero Cool and his friends have been framed by The Plague, who has unleashed a computer virus that could cause an environmental disaster. Pursued by the Secret Service, the gang try to gather the evidence to take The Plague down and stop the virus from unleashing havoc. A bumper-fest of hacking, car chases and double-crossing that has become lore in geek culture. Endlessly quotable and a highlight of EMF 2022.",
-							"oneLine": "In this geek classic hackers are blamed for making a virus that will capsize five oil tankers.",
-							"special": "Director Iain Softley and vfx artist Paul Franklin answer your questions in a Q&A after the film."
-					},
-					"tagline": "HACK THE PLANET!",
-					"showing": {
-							"timestamp": "2022-05-31T20:30:00+01:00",
-							"text": "31st May 20:30",
-							"day": "Friday"
-					},
-					"imdb": "https://www.imdb.com/title/tt0113243/",
-					"trailer": "https://www.youtube.com/watch?v=Rn2cf_wJ4f4",
-					"runTime": {
-							"minutes": 101,
-							"text": "1h 41"
-					}
-				},
-				{
-					"display": true,
-					"slug": "micro-men",
-					"title": "Micro Men",
-					"director": "Saul Metzstein",
-					"year": 2009,
-					"certificate": "Exempt",
-					"poster": "https://www.imdb.com/title/tt1459467/mediaviewer/rm4066903296/",
-					"image": "micro-men.png",
-					"starring": [
-							"Alexander Armstrong",
-							"Martin Freeman"
-					],
-					"precis": {
-							"full": "Finally showing at Electromagnetic Field, this cult classic comedy drama looks at the friendship, and then bitter rivalry, between Clive Sinclair and Chris Curry. Armstrong captures the larger-than-life presence of Sinclair in a story of determination, hubris and lots of shouting.",
-							"oneLine": "The rise and fall of one of the giants of the computer age"
-					},
-					"tagline": "The birth of the British computer age",
-					"showing": {
-							"timestamp": "2022-05-31T23:45:00+01:00",
-							"text": "31st May 23:45",
-							"day": "Friday"
-					},
-					"runTime": {
-							"minutes": 85,
-							"text": "1h 25"
-					}
-				},
-				{
-					"display": true,
-					"slug": "qbagybbxhc",
-					"title": "Benn Wiebe & QbagYbbxHc",
-					"director": "?",
-					"certificate": "15",
-					"year": 2021,
-					"image": "qbagybbxhc.png",
-					"starring": [
-							"?"
-					],
-					"precis": {
-							"full": "We are not allowed to publicise this but we can say it's a fantasic, funny satire on mainstream media and politics. Benn Wiebe, who was an associate producer and climate consultant on \"Don't Look Up\" will deliver an introductory talk on the role of media in impact campaigns.<br/><br/>Benn is a SXSW Grand Jury Prize & UNICEF Prize winning, Oscar Shortlisted, Webby nominated producer. He has been a social impact advisor and producer working across film, games and events, with a mission to bridge gaps between story and policy, and ultimately champion vast perspectives to aid social movement. He is the Head of Partnerships for Neon Picturehouse, and Executive Producer & Vice-Chairman of HF Productions. He serves as an Advisor of Think Film, Global Environment Media, Screen South, SIE Society, and Treun House Atelier. Benn also consults on projects from producing Netflix impact campaigns (“Don't Look Up”, “Breaking Boundaries…), Sony's Picture This, and SDGs in Action with UN DESA as part of the High Level Political Forum.",
-							"oneLine": "?",
-							"special": "Introductory talk by associate producer Benn Wiebe"
-					},
-					"tagline": "?",
-					"showing": {
-							"timestamp": "2022-06-01T20:30:00+01:00",
-							"text": "1st June 20:30",
-							"day": "Saturday"
-					},
-					"runTime": {
-							"minutes": 85,
-							"text": "1h 25"
-					}
-				},
-				{
-					"display": true,
-					"slug": "rubber-keyed-wonder",
-					"title": "The Rubber-Keyed Wonder",
-					"director": "Nicola and Anthony Caulfield",
-					"year": 2024,
-					"certificate": "Exempt",
-					"image": "rkw.jpg",
-					"poster": "https://www.graciousfilms.com/cdn/shop/articles/Film_poster_with_title_block.jpg?v=1635941725",
-					"starring": [
-							"Sir Clive Sinclair"
-					],
-					"precis": {
-							"full": "The Rubber Keyed Wonder tells the story of the Sinclair ZX Spectrum. This film goes into all the finer details of how and why the ZX Spectrum was created, what impact the computer had as well as the various versions that followed right the way through to the latest iteration of the system with the ZX Spectrum Next.<br/><br/>A chance to see this brand new documentary before it reaches cinemas.",
-							"oneLine": "40 Years of the ZX Spectrum"
-					},
-					"tagline": "40 Years of the ZX Spectrum",
-					"showing": {
-							"timestamp": "2024-06-01T23:45:00+01:00",
-							"text": "1st June 23:45",
-							"day": "Saturday"
-					},
-					"trailer": "https://www.graciousfilms.com/products/the-rubber-keyed-wonder",
-					"runTime": {
-							"minutes": 120,
-							"text": "2h"
-					}
+	"schemaVersion": 1,
+	"films": [
+		{
+			"display": true,
+			"slug": "dune",
+			"title": "Dune (1984)",
+			"director": "David Lynch",
+			"year": 1984,
+			"certificate": "15",
+			"poster": "https://www.imdb.com/title/tt0087182/mediaviewer/rm423377408/",
+			"image": "dune.jpg",
+			"starring": ["Kyle MacLachlan", "Virginia Madsen", "Francesca Annis"],
+			"precis": {
+				"full": "David Lunch's 1984 take on Frank Herbert's classic. Sometimes surprising, sometimes laughable, sometimes just bizarre. A Duke's son leads desert warriors against the galactic emperor and his father's evil nemesis to free their desert world from the emperor's rule.",
+				"oneLine": "Before Denis Villeneuve there was, well, this.",
+				"special": "Showing only if venue is ready and safe"
 			},
-			{
-				"display": true,
-				"slug": "colossus",
-				"title": "Colossus: The Forbin Project",
-				"director": "Joseph Sargent",
-				"year": 1980,
-				"certificate": "12",
-				"poster": "https://www.imdb.com/title/tt0064177/mediaviewer/rm1222727680/",
-				"image": "colossus.jpg",
-				"starring": [
-						"Eric Braeden",
-						"Susan Clark",
-						"Gordon Pinsent"
-				],
-				"precis": {
-						"full": "A seventies classic and eerily prescient given the current rise of AI. Thinking this will prevent war, the US government gives an impenetrable supercomputer total control over launching nuclear missiles. But what the computer does with the power is unimaginable to its creators.",
-						"oneLine": "Thinking this will prevent war, the US government gives an impenetrable supercomputer total control over launching nuclear missiles. But what the computer does with the power is unimaginable to its creators."
-				},
-				"tagline": "This is the dawning of the age of Colossus",
-				"showing": {
-						"timestamp": "2024-06-02T20:30:00+01:00",
-						"text": "2nd June 20:30",
-						"day": "Sunday"
-				},
-				"imdb": "https://www.imdb.com/title/tt0064177/",
-				"trailer": "https://www.youtube.com/watch?v=kyOEwiQhzMI",
-				"runTime": {
-						"minutes": 101,
-						"text": "1h 41"
-				}
+			"tagline": "A world beyond your experience, beyond your imagination.",
+			"showing": {
+				"timestamp": "2024-05-30T20:00:00+01:00",
+				"text": "30th May 20:00",
+				"day": "Thursday"
+			},
+			"imdb": "https://www.imdb.com/title/tt0087182/",
+			"trailer": "https://www.youtube.com/watch?v=l14cIlg5Qmk",
+			"runTime": {
+				"minutes": 140,
+				"text": "2h 20"
+			}
+		},
+		{
+			"display": true,
+			"slug": "hackers",
+			"title": "Hackers & Q&A",
+			"director": "Iain Softley",
+			"year": 1995,
+			"certificate": "12",
+			"poster": "https://www.imdb.com/title/tt0113243/mediaviewer/rm3977202176/",
+			"image": "hackers.jpg",
+			"starring": [
+				"Jonny Lee Miller",
+				"Angelina Jolie",
+				"Matthew Lillard",
+				"Jesse Bradford",
+				"Peter Y. Kim",
+				"Darren Lee",
+				"Lorraine Bracco",
+				"Ethan Browne",
+				"Renoly Santiago",
+				"Laurence Mason",
+				"Alberta Watson",
+				"Fisher Stevens"
+			],
+			"precis": {
+				"full": "Do we even need to write this blurb? Geek classic Hackers returns after four years. Legendary hacker Zero Cool and his friends have been framed by The Plague, who has unleashed a computer virus that could cause an environmental disaster. Pursued by the Secret Service, the gang try to gather the evidence to take The Plague down and stop the virus from unleashing havoc. A bumper-fest of hacking, car chases and double-crossing that has become lore in geek culture. Endlessly quotable and a highlight of EMF 2022.",
+				"oneLine": "In this geek classic hackers are blamed for making a virus that will capsize five oil tankers.",
+				"special": "Director Iain Softley and vfx artist Paul Franklin answer your questions in a Q&A after the film."
+			},
+			"tagline": "HACK THE PLANET!",
+			"showing": {
+				"timestamp": "2022-05-31T20:30:00+01:00",
+				"text": "31st May 20:30",
+				"day": "Friday"
+			},
+			"imdb": "https://www.imdb.com/title/tt0113243/",
+			"trailer": "https://www.youtube.com/watch?v=Rn2cf_wJ4f4",
+			"runTime": {
+				"minutes": 101,
+				"text": "1h 41"
+			}
+		},
+		{
+			"display": true,
+			"slug": "micro-men",
+			"title": "Micro Men",
+			"director": "Saul Metzstein",
+			"year": 2009,
+			"certificate": "Exempt",
+			"poster": "https://www.imdb.com/title/tt1459467/mediaviewer/rm4066903296/",
+			"image": "micro-men.png",
+			"starring": ["Alexander Armstrong", "Martin Freeman"],
+			"precis": {
+				"full": "Finally showing at Electromagnetic Field, this cult classic comedy drama looks at the friendship, and then bitter rivalry, between Clive Sinclair and Chris Curry. Armstrong captures the larger-than-life presence of Sinclair in a story of determination, hubris and lots of shouting.",
+				"oneLine": "The rise and fall of one of the giants of the computer age"
+			},
+			"tagline": "The birth of the British computer age",
+			"showing": {
+				"timestamp": "2022-05-31T23:45:00+01:00",
+				"text": "31st May 23:45",
+				"day": "Friday"
+			},
+			"runTime": {
+				"minutes": 85,
+				"text": "1h 25"
+			}
+		},
+		{
+			"display": true,
+			"slug": "qbagybbxhc",
+			"title": "Benn Wiebe & QbagYbbxHc",
+			"director": "?",
+			"certificate": "15",
+			"year": 2021,
+			"image": "qbagybbxhc.png",
+			"starring": ["?"],
+			"precis": {
+				"full": "We are not allowed to publicise this but we can say it's a fantasic, funny satire on mainstream media and politics. Benn Wiebe, who was an associate producer and climate consultant on \"Don't Look Up\" will deliver an introductory talk on the role of media in impact campaigns.<br/><br/>Benn is a SXSW Grand Jury Prize & UNICEF Prize winning, Oscar Shortlisted, Webby nominated producer. He has been a social impact advisor and producer working across film, games and events, with a mission to bridge gaps between story and policy, and ultimately champion vast perspectives to aid social movement. He is the Head of Partnerships for Neon Picturehouse, and Executive Producer & Vice-Chairman of HF Productions. He serves as an Advisor of Think Film, Global Environment Media, Screen South, SIE Society, and Treun House Atelier. Benn also consults on projects from producing Netflix impact campaigns (“Don't Look Up”, “Breaking Boundaries…), Sony's Picture This, and SDGs in Action with UN DESA as part of the High Level Political Forum.",
+				"oneLine": "?",
+				"special": "Introductory talk by associate producer Benn Wiebe"
+			},
+			"tagline": "?",
+			"showing": {
+				"timestamp": "2022-06-01T20:30:00+01:00",
+				"text": "1st June 20:30",
+				"day": "Saturday"
+			},
+			"runTime": {
+				"minutes": 85,
+				"text": "1h 25"
+			}
+		},
+		{
+			"display": true,
+			"slug": "colossus",
+			"title": "Colossus: The Forbin Project",
+			"director": "Joseph Sargent",
+			"year": 1980,
+			"certificate": "12",
+			"poster": "https://www.imdb.com/title/tt0064177/mediaviewer/rm1222727680/",
+			"image": "colossus.jpg",
+			"starring": ["Eric Braeden", "Susan Clark", "Gordon Pinsent"],
+			"precis": {
+				"full": "A seventies classic and eerily prescient given the current rise of AI. Thinking this will prevent war, the US government gives an impenetrable supercomputer total control over launching nuclear missiles. But what the computer does with the power is unimaginable to its creators.",
+				"oneLine": "Thinking this will prevent war, the US government gives an impenetrable supercomputer total control over launching nuclear missiles. But what the computer does with the power is unimaginable to its creators."
+			},
+			"tagline": "This is the dawning of the age of Colossus",
+			"showing": {
+				"timestamp": "2024-06-01T23:45:00+01:00",
+				"text": "1st June 23:45",
+				"day": "Saturday"
+			},
+			"imdb": "https://www.imdb.com/title/tt0064177/",
+			"trailer": "https://www.youtube.com/watch?v=kyOEwiQhzMI",
+			"runTime": {
+				"minutes": 101,
+				"text": "1h 41"
+			}
+		},
+		{
+			"display": true,
+			"slug": "rubber-keyed-wonder",
+			"title": "The Rubber-Keyed Wonder",
+			"director": "Nicola and Anthony Caulfield",
+			"year": 2024,
+			"certificate": "Exempt",
+			"image": "rkw.jpg",
+			"poster": "https://www.graciousfilms.com/cdn/shop/articles/Film_poster_with_title_block.jpg?v=1635941725",
+			"starring": ["Sir Clive Sinclair"],
+			"precis": {
+				"full": "The Rubber Keyed Wonder tells the story of the Sinclair ZX Spectrum. This film goes into all the finer details of how and why the ZX Spectrum was created, what impact the computer had as well as the various versions that followed right the way through to the latest iteration of the system with the ZX Spectrum Next.<br/><br/>A chance to see this brand new documentary before it reaches cinemas.",
+				"oneLine": "40 Years of the ZX Spectrum"
+			},
+			"tagline": "40 Years of the ZX Spectrum",
+			"showing": {
+				"timestamp": "2024-06-02T20:30:00+01:00",
+				"text": "2nd June 20:30",
+				"day": "Sunday"
+			},
+			"trailer": "https://www.graciousfilms.com/products/the-rubber-keyed-wonder",
+			"runTime": {
+				"minutes": 120,
+				"text": "2h"
+			}
 		},
 		{
 			"display": true,
@@ -197,27 +182,23 @@
 			"certificate": "U",
 			"poster": "https://www.imdb.com/title/tt0067756/mediaviewer/rm1493710080/",
 			"image": "silent-running.jpg",
-			"starring": [
-					"Bruce Dern",
-					"Cliff Potts",
-					"Ron Rifkin"
-			],
+			"starring": ["Bruce Dern", "Cliff Potts", "Ron Rifkin"],
 			"precis": {
-					"full": "The ultimate solarpunk film? In a future Earth barren of all flora and fauna, the planet's ecosystems exist only in large pods attached to spacecraft. When word comes in that the pods are to be jettisoned into space and destroyed, most of the crew of the Valley Forge rejoice at the prospect of going home. Not so for botanist Freeman Lowell, who loves the forest and its creatures. He kills his colleagues taking the ship deep into space. Alone on the craft with his only companions being three small robots, Lowell revels in joys of nature. When colleagues appear to rescue him, he realizes he has only one option available to him.",
-					"oneLine": "In a future where all flora is extinct on Earth, an astronaut is given orders to destroy the last of Earth's botany, kept in a greenhouse aboard a spacecraft."
+				"full": "The ultimate solarpunk film? In a future Earth barren of all flora and fauna, the planet's ecosystems exist only in large pods attached to spacecraft. When word comes in that the pods are to be jettisoned into space and destroyed, most of the crew of the Valley Forge rejoice at the prospect of going home. Not so for botanist Freeman Lowell, who loves the forest and its creatures. He kills his colleagues taking the ship deep into space. Alone on the craft with his only companions being three small robots, Lowell revels in joys of nature. When colleagues appear to rescue him, he realizes he has only one option available to him.",
+				"oneLine": "In a future where all flora is extinct on Earth, an astronaut is given orders to destroy the last of Earth's botany, kept in a greenhouse aboard a spacecraft."
 			},
 			"tagline": "The day the last flower died on earth this incredible mission began",
 			"showing": {
-					"timestamp": "2024-06-02T22:30:00+01:00",
-					"text": "2nd June 22:30",
-					"day": "Sunday"
+				"timestamp": "2024-06-02T22:30:00+01:00",
+				"text": "2nd June 22:30",
+				"day": "Sunday"
 			},
 			"imdb": "https://www.imdb.com/title/tt0067756/",
 			"trailer": "https://www.youtube.com/watch?v=p69lEMn0I8k",
 			"runTime": {
-					"minutes": 90,
-					"text": "1h 30"
+				"minutes": 90,
+				"text": "1h 30"
 			}
-	}
-  ]
+		}
+	]
 }

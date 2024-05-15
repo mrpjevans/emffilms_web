@@ -3,7 +3,7 @@
   <title>EMF Films</title>
   <link href="https://emffilms.org/feed/feed.xml" rel="self"/>
   <link href="https://emffilms.org/films/"/>
-  <updated>2024-05-15T12:45:48Z</updated>
+  <updated>2024-05-15T13:41:38Z</updated>
   <id>https://emffilms.org/films/</id>
   <author>
     <name>EMF Films Team</name>
@@ -62,28 +62,28 @@
   </entry>
   
   <entry>
-    <title>The Rubber-Keyed Wonder</title>
-    <link href="https://emffilms.org/films/rubber-keyed-wonder"/>
+    <title>Colossus: The Forbin Project</title>
+    <link href="https://emffilms.org/films/colossus"/>
     <updated>2024-06-01T23:45:00+01:00</updated>
-    <id>https://emffilms.org/films/rubber-keyed-wonder</id>
+    <id>https://emffilms.org/films/colossus</id>
     <content type="html">
 			<p>Saturday 1st June 23:45</p>
-			<p>2024 - 2h - Exempt</p>
-			<p>40 Years of the ZX Spectrum</p>
-			<p>The Rubber Keyed Wonder tells the story of the Sinclair ZX Spectrum. This film goes into all the finer details of how and why the ZX Spectrum was created, what impact the computer had as well as the various versions that followed right the way through to the latest iteration of the system with the ZX Spectrum Next.&lt;br/&gt;&lt;br/&gt;A chance to see this brand new documentary before it reaches cinemas.</p>
+			<p>1980 - 1h 41 - 12</p>
+			<p>Thinking this will prevent war, the US government gives an impenetrable supercomputer total control over launching nuclear missiles. But what the computer does with the power is unimaginable to its creators.</p>
+			<p>A seventies classic and eerily prescient given the current rise of AI. Thinking this will prevent war, the US government gives an impenetrable supercomputer total control over launching nuclear missiles. But what the computer does with the power is unimaginable to its creators.</p>
 		</content>
   </entry>
   
   <entry>
-    <title>Colossus: The Forbin Project</title>
-    <link href="https://emffilms.org/films/colossus"/>
+    <title>The Rubber-Keyed Wonder</title>
+    <link href="https://emffilms.org/films/rubber-keyed-wonder"/>
     <updated>2024-06-02T20:30:00+01:00</updated>
-    <id>https://emffilms.org/films/colossus</id>
+    <id>https://emffilms.org/films/rubber-keyed-wonder</id>
     <content type="html">
 			<p>Sunday 2nd June 20:30</p>
-			<p>1980 - 1h 41 - 12</p>
-			<p>Thinking this will prevent war, the US government gives an impenetrable supercomputer total control over launching nuclear missiles. But what the computer does with the power is unimaginable to its creators.</p>
-			<p>A seventies classic and eerily prescient given the current rise of AI. Thinking this will prevent war, the US government gives an impenetrable supercomputer total control over launching nuclear missiles. But what the computer does with the power is unimaginable to its creators.</p>
+			<p>2024 - 2h - Exempt</p>
+			<p>40 Years of the ZX Spectrum</p>
+			<p>The Rubber Keyed Wonder tells the story of the Sinclair ZX Spectrum. This film goes into all the finer details of how and why the ZX Spectrum was created, what impact the computer had as well as the various versions that followed right the way through to the latest iteration of the system with the ZX Spectrum Next.&lt;br/&gt;&lt;br/&gt;A chance to see this brand new documentary before it reaches cinemas.</p>
 		</content>
   </entry>
   
