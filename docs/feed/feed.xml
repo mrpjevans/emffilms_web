@@ -3,100 +3,163 @@
   <title>EMF Films</title>
   <link href="https://emffilms.org/feed/feed.xml" rel="self"/>
   <link href="https://emffilms.org/films/"/>
-  <updated>2026-05-31T12:18:47Z</updated>
+  <updated>2026-05-31T15:19:56Z</updated>
   <id>https://emffilms.org/films/</id>
   <author>
     <name>EMF Films Team</name>
   </author>
-  
-  <entry>
-    <title>Dune (1984)</title>
-    <link href="https://emffilms.org/films/dune"/>
-    <updated>2024-05-30T20:00:00+01:00</updated>
-    <id>https://emffilms.org/films/dune</id>
-    <content type="html">
-			<p>Thursday 30th May 20:00</p>
-			<p>1984 - 2h 20 - 12A</p>
-			<p>Before Denis Villeneuve there was, well, this.</p>
-			<p>David Lunch&#39;s 1984 take on Frank Herbert&#39;s classic. Sometimes surprising, sometimes laughable, sometimes just bizarre. A Duke&#39;s son leads desert warriors against the galactic emperor and his father&#39;s evil nemesis to free their desert world from the emperor&#39;s rule.</p>
-		</content>
-  </entry>
-  
-  <entry>
-    <title>Hackers &amp; Q&amp;A</title>
-    <link href="https://emffilms.org/films/hackers"/>
-    <updated>2022-05-31T20:30:00+01:00</updated>
-    <id>https://emffilms.org/films/hackers</id>
-    <content type="html">
-			<p>Friday 31st May 20:30</p>
-			<p>1995 - 1h 41 - 12</p>
-			<p>In this geek classic hackers are blamed for making a virus that will capsize five oil tankers.</p>
-			<p>Do we even need to write this blurb? Geek classic Hackers returns after four years. Legendary hacker Zero Cool and his friends have been framed by The Plague, who has unleashed a computer virus that could cause an environmental disaster. Pursued by the Secret Service, the gang try to gather the evidence to take The Plague down and stop the virus from unleashing havoc. A bumper-fest of hacking, car chases and double-crossing that has become lore in geek culture. Endlessly quotable and a highlight of EMF 2022.</p>
-		</content>
-  </entry>
-  
-  <entry>
-    <title>Micro Men</title>
-    <link href="https://emffilms.org/films/micro-men"/>
-    <updated>2022-05-31T23:30:00+01:00</updated>
-    <id>https://emffilms.org/films/micro-men</id>
-    <content type="html">
-			<p>Friday 31st May 23:30</p>
-			<p>2009 - 1h 25 - Exempt</p>
-			<p>The rise and fall of one of the giants of the computer age</p>
-			<p>Finally showing at Electromagnetic Field, this cult classic comedy drama looks at the friendship, and then bitter rivalry, between Clive Sinclair and Chris Curry. Armstrong captures the larger-than-life presence of Sinclair in a story of determination, hubris and lots of shouting.</p>
-		</content>
-  </entry>
-  
-  <entry>
-    <title>Benn Wiebe &amp; QbagYbbxHc</title>
-    <link href="https://emffilms.org/films/qbagybbxhc"/>
-    <updated>2022-06-01T20:30:00+01:00</updated>
-    <id>https://emffilms.org/films/qbagybbxhc</id>
-    <content type="html">
-			<p>Saturday 1st June 20:30</p>
-			<p>2021 - 1h 25 - 15</p>
-			<p>?</p>
-			<p>We are not allowed to publicise this but we can say it&#39;s a fantasic, funny satire on mainstream media and politics. Benn Wiebe, who was an associate producer and climate consultant on &quot;Don&#39;t Look Up&quot; will deliver an introductory talk on the role of media in impact campaigns.&lt;br/&gt;&lt;br/&gt;Benn is a SXSW Grand Jury Prize &amp; UNICEF Prize winning, Oscar Shortlisted, Webby nominated producer. He has been a social impact advisor and producer working across film, games and events, with a mission to bridge gaps between story and policy, and ultimately champion vast perspectives to aid social movement. He is the Head of Partnerships for Neon Picturehouse, and Executive Producer &amp; Vice-Chairman of HF Productions. He serves as an Advisor of Think Film, Global Environment Media, Screen South, SIE Society, and Treun House Atelier. Benn also consults on projects from producing Netflix impact campaigns (“Don&#39;t Look Up”, “Breaking Boundaries…), Sony&#39;s Picture This, and SDGs in Action with UN DESA as part of the High Level Political Forum.</p>
-		</content>
-  </entry>
-  
-  <entry>
-    <title>Colossus: The Forbin Project</title>
-    <link href="https://emffilms.org/films/colossus"/>
-    <updated>2024-06-01T23:45:00+01:00</updated>
-    <id>https://emffilms.org/films/colossus</id>
-    <content type="html">
-			<p>Saturday 1st June 23:45</p>
-			<p>1980 - 1h 41 - 12</p>
-			<p>Thinking this will prevent war, the US government gives an impenetrable supercomputer total control over launching nuclear missiles. But what the computer does with the power is unimaginable to its creators.</p>
-			<p>A seventies classic and eerily prescient given the current rise of AI. Thinking this will prevent war, the US government gives an impenetrable supercomputer total control over launching nuclear missiles. But what the computer does with the power is unimaginable to its creators.</p>
-		</content>
-  </entry>
-  
-  <entry>
-    <title>The Rubber-Keyed Wonder</title>
-    <link href="https://emffilms.org/films/rubber-keyed-wonder"/>
-    <updated>2024-06-02T20:00:00+01:00</updated>
-    <id>https://emffilms.org/films/rubber-keyed-wonder</id>
-    <content type="html">
-			<p>Sunday 2nd June 20:00</p>
-			<p>2024 - 2h - Exempt</p>
-			<p>40 Years of the ZX Spectrum</p>
-			<p>The Rubber Keyed Wonder tells the story of the Sinclair ZX Spectrum. This film goes into all the finer details of how and why the ZX Spectrum was created, what impact the computer had as well as the various versions that followed right the way through to the latest iteration of the system with the ZX Spectrum Next.&lt;br/&gt;&lt;br/&gt;A chance to see this brand new documentary before it reaches cinemas.</p>
-		</content>
-  </entry>
-  
-  <entry>
-    <title>Silent Running</title>
-    <link href="https://emffilms.org/films/silent-running"/>
-    <updated>2024-06-02T22:30:00+01:00</updated>
-    <id>https://emffilms.org/films/silent-running</id>
-    <content type="html">
-			<p>Sunday 2nd June 22:30</p>
-			<p>1971 - 1h 30 - U</p>
-			<p>In a future where all flora is extinct on Earth, an astronaut is given orders to destroy the last of Earth&#39;s botany, kept in a greenhouse aboard a spacecraft.</p>
-			<p>The ultimate solarpunk film? In a future Earth barren of all flora and fauna, the planet&#39;s ecosystems exist only in large pods attached to spacecraft. When word comes in that the pods are to be jettisoned into space and destroyed, most of the crew of the Valley Forge rejoice at the prospect of going home. Not so for botanist Freeman Lowell, who loves the forest and its creatures. He kills his colleagues taking the ship deep into space. Alone on the craft with his only companions being three small robots, Lowell revels in joys of nature. When colleagues appear to rescue him, he realizes he has only one option available to him.</p>
-		</content>
-  </entry>
+      
+      <entry>
+        <title>Apollo 11</title>
+        <link href="https://emffilms.org/films/apollo11"/>
+        <updated>2026-07-16T19:00:00+01:00</updated>
+        <id>https://emffilms.org/films/apollo11</id>
+        <content type="html">
+          <p>Thursday
+            16th July 19:00</p>
+          <p>2019 - 1h 33 - E</p>
+          <p>A visually stunning look at the Apollo 11 mission to land on the moon led by commander Neil Armstrong and pilots Buzz Aldrin and Mike Collins.</p>
+          <p>Created from thousands of hours of footage, much of which has never been seen before, this cinematic masterpiece covers the Apollo 11 mission from launch to splashdown. By omitting narration the misson unfolds through stunning visuals and the words of the people who were there, the lovingly restored and assembled footage telling the story. It is an absolute must on a big screen.</p>
+        </content>
+      </entry>
+      
+      <entry>
+        <title>Heart Of Neon</title>
+        <link href="https://emffilms.org/films/heartofneon"/>
+        <updated>2026-07-16T21:00:00+01:00</updated>
+        <id>https://emffilms.org/films/heartofneon</id>
+        <content type="html">
+          <p>Thursday
+            16th July 21:00</p>
+          <p>2025 - 1h 35 - E</p>
+          <p>The remarkable history of video games pioneer Jeff Minter.</p>
+          <p>Jeff Minter is an exceptional video game developer who, for decades, has remained independent in an industry where corporations dictate the terms. HEART OF NEON charts Jeff&#39;s 40-year career from pioneer to legend, mapping the territory Jeff traversed, becoming a beacon to everyone drawn to the same purity he admires in classic gaming, drawn to the beautiful lights.</p>
+        </content>
+      </entry>
+      
+      <entry>
+        <title>WALL-E</title>
+        <link href="https://emffilms.org/films/walle"/>
+        <updated>2026-07-17T08:00:00+01:00</updated>
+        <id>https://emffilms.org/films/walle</id>
+        <content type="html">
+          <p>Friday
+            17th July 08:00</p>
+          <p>2008 - 1h 38 - U</p>
+          <p>In a future where humans have temporarily abandoned Earth, a trash-compacting robot falls in love with a flying droid and helps her on her quest to restore hope to mankind.</p>
+          <p>In a special presentation for our younger attendees (although all are welcome), we spend Friday morning with WALL-E, one of Pixar&#39;s most-loved features. In a future where humans have temporarily abandoned Earth, a trash-compacting robot falls in love with a flying droid and helps her on her quest to restore hope to mankind.</p>
+        </content>
+      </entry>
+      
+      <entry>
+        <title>Hackers</title>
+        <link href="https://emffilms.org/films/hackers"/>
+        <updated>2026-07-17T19:00:00+01:00</updated>
+        <id>https://emffilms.org/films/hackers</id>
+        <content type="html">
+          <p>Friday
+            17th July 19:00</p>
+          <p>1995 - 1h 41 - 12</p>
+          <p>In this geek classic hackers are blamed for making a virus that will capsize five oil tankers.</p>
+          <p>How could we not show this? Do we even need to write this blurb? Legendary hacker Zero Cool and his friends have been framed by The Plague, who has unleashed a computer virus that could cause an environmental disaster. Pursued by the Secret Service, the gang try to gather the evidence to take The Plague down and stop the virus from unleashing havoc. A bumper-fest of hacking, car chases and double-crossing that has become lore in geek culture. Endlessly quotable and a highlight of EMF 2024. &quot;EMF is the spiritual home of Hackers&quot; - Iain Softley</p>
+        </content>
+      </entry>
+      
+      <entry>
+        <title>2OO1: A Space Odyssey</title>
+        <link href="https://emffilms.org/films/2001"/>
+        <updated>2026-07-17T22:00:00+01:00</updated>
+        <id>https://emffilms.org/films/2001</id>
+        <content type="html">
+          <p>Friday
+            17th July 22:00</p>
+          <p>1968 - 2h 29 - U</p>
+          <p>When a mysterious artifact is uncovered on the Moon, a spacecraft manned by two humans and one supercomputer is sent to Jupiter to find its origins.</p>
+          <p>How could we not show Kubrick&#39;s masterpiece at a space-themed EMF? &#39;2001: A Space Odyssey&#39; stands as a visually stunning masterpiece that creates overwhelming cosmic wonder through breathtaking cinematography and ambitious scope spanning human evolution. The thought-provoking narrative invites personal interpretation about consciousness and humanity&#39;s place in the universe. It&#39;s got HAL in it too.</p>
+        </content>
+      </entry>
+      
+      <entry>
+        <title>Wallace &amp; Gromit</title>
+        <link href="https://emffilms.org/films/grand"/>
+        <updated>2026-07-18T08:30:00+01:00</updated>
+        <id>https://emffilms.org/films/grand</id>
+        <content type="html">
+          <p>Saturday
+            18th July 08:30</p>
+          <p>1989 - 1h 00 - U</p>
+          <p></p>
+          <p></p>
+        </content>
+      </entry>
+      
+      <entry>
+        <title>Apollo 13</title>
+        <link href="https://emffilms.org/films/apollo13"/>
+        <updated>2026-07-18T19:00:00+01:00</updated>
+        <id>https://emffilms.org/films/apollo13</id>
+        <content type="html">
+          <p>Saturday
+            18th July 19:00</p>
+          <p>1995 - 2h 20 - U</p>
+          <p></p>
+          <p></p>
+        </content>
+      </entry>
+      
+      <entry>
+        <title>MOON</title>
+        <link href="https://emffilms.org/films/moon"/>
+        <updated>2026-07-18T22:00:00+01:00</updated>
+        <id>https://emffilms.org/films/moon</id>
+        <content type="html">
+          <p>Saturday
+            18th July 22:00</p>
+          <p>2009 - 1h 37 - 15</p>
+          <p></p>
+          <p></p>
+        </content>
+      </entry>
+      
+      <entry>
+        <title>How To Train Your Dragon</title>
+        <link href="https://emffilms.org/films/dragon"/>
+        <updated>2026-07-19T08:00:00+01:00</updated>
+        <id>https://emffilms.org/films/dragon</id>
+        <content type="html">
+          <p>Sunday
+            19th July 19:00</p>
+          <p>2010 - 1h 38 - U</p>
+          <p></p>
+          <p></p>
+        </content>
+      </entry>
+      
+      <entry>
+        <title>The Princess Bride</title>
+        <link href="https://emffilms.org/films/princessbride"/>
+        <updated>2026-07-19T18:30:00+01:00</updated>
+        <id>https://emffilms.org/films/princessbride</id>
+        <content type="html">
+          <p>Sunday
+            19th July 18:30</p>
+          <p>1987 - 1h 41 - U</p>
+          <p></p>
+          <p></p>
+        </content>
+      </entry>
+      
+      <entry>
+        <title>Contact</title>
+        <link href="https://emffilms.org/films/contact"/>
+        <updated>2026-07-19T21:00:00+01:00</updated>
+        <id>https://emffilms.org/films/contact</id>
+        <content type="html">
+          <p>Sunday
+            19th July 21:00</p>
+          <p>1997 - 2h 30 - 12</p>
+          <p></p>
+          <p></p>
+        </content>
+      </entry>
 </feed>

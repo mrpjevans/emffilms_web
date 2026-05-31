@@ -41,13 +41,13 @@ H1 {
 }
 
 H2 {
-	font-size: 1.2rem;
+	font-size: 2rem;
 	margin: 1rem 0 0 0;
 	color: #F77F02;
 }
 
 .film-time {
-	font-size: 0.8rem;
+	font-size: 1.4rem;
 	color: #BAC2C9;
 }
 
@@ -72,7 +72,7 @@ img[width][height] {
 
 footer {
 	color: silver;
-	font-size: 2rem;
+	font-size: 1.2rem;
 	line-height: 28px;
 }
 
@@ -91,8 +91,12 @@ footer a {
 }
 
 .time-and-cert {
-	font-size: 0.8em;
+	font-size: 1.2em;
 	color: #BAC2C9;
+}
+
+MAIN {
+	font-size: 1.2rem;
 }
 
 .filminfos {
@@ -108,7 +112,7 @@ footer a {
 	min-width: 100px;
 	color: #2EADD9;
 	font-weight: bold;
-	font-size: 0.7em;
+	font-size: 1rem;
 	text-transform: uppercase;
 	margin-bottom: 4px;
 }

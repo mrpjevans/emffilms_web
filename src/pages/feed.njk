@@ -14,18 +14,21 @@ eleventyExcludeFromCollections: true
     <name>{{ metadata.author.name }}</name>
   </author>
   {%- for film in schedule.films %}
-  {% set absolutePostUrl %}{{ film.slug | url | absoluteUrl(metadata.url) }}{% endset %}
-  <entry>
-    <title>{{ film.title }}</title>
-    <link href="{{ absolutePostUrl }}"/>
-    <updated>{{ film.showing.timestamp }}</updated>
-    <id>{{ absolutePostUrl }}</id>
-    <content type="html">
-			<p>{{ film.showing.day }} {{ film.showing.text }}</p>
-			<p>{{ film.year }} - {{ film.runTime.text }} - {{ film.certificate }}</p>
-			<p>{{ film.precis.oneLine }}</p>
-			<p>{{ film.precis.full }}</p>
-		</content>
-  </entry>
+    {%- if film.display %}
+      {% set absolutePostUrl %}{{ film.slug | url | absoluteUrl(metadata.url) }}{% endset %}
+      <entry>
+        <title>{{ film.title }}</title>
+        <link href="{{ absolutePostUrl }}"/>
+        <updated>{{ film.showing.timestamp }}</updated>
+        <id>{{ absolutePostUrl }}</id>
+        <content type="html">
+          <p>{{ film.showing.day }}
+            {{ film.showing.text }}</p>
+          <p>{{ film.year }} - {{ film.runTime.text }} - {{ film.certificate }}</p>
+          <p>{{ film.precis.oneLine }}</p>
+          <p>{{ film.precis.full }}</p>
+        </content>
+      </entry>
+    {%- endif %}
   {%- endfor %}
 </feed>
