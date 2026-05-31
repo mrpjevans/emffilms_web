@@ -5,8 +5,8 @@ const pluginDrafts = require("./eleventy.config.drafts.js");
 
 module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("src/css/emffilms.css");
-	eleventyConfig.addPassthroughCopy("src/css/Confidential.woff");
-	eleventyConfig.addPassthroughCopy("src/css/Confidential.woff2");
+	eleventyConfig.addPassthroughCopy("src/css/GillSansLight.otf");
+	eleventyConfig.addPassthroughCopy("src/css/GillSans.otf");
 	eleventyConfig.addPassthroughCopy("./favicon.jpg");
 	eleventyConfig.addPassthroughCopy({
 		"src/data/schedule.json": "schedule.json",

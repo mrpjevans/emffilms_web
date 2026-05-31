@@ -1,34 +1,49 @@
 @font-face {
-	font-family: 'Confidential';
-	src: url('Confidential.woff2') format('woff2'),
-			url('Confidential.woff') format('woff');
+	font-family: 'Gill Sans Light';
+	src: url('GillSansLight.oft') format('opentype');
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
 }
 
-HTML, BODY {
-	background-color: #151735;
+@font-face {
+	font-family: 'Gill Sans';
+	src: url('GillSans.oft') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+HTML,
+BODY {
+	background-color: #000730;
 	padding: 0;
 	margin: 0;
 	color: white;
-	font-family: Arial
+	font-family: 'Gill Sans Light'
+
 }
 
-.logo, .backlink a {
-	font-family: 'Confidential', Arial;
+.logo,
+.backlink a {
+	font-family: 'Gill Sans Light', Arial;
 	font-size: 3rem;
 	font-weight: 300;
 }
 
+.logo B {
+	font-family: 'Gill Sans'
+}
+
 H1 {
 	font-size: 4em;
+	color: #F77F02;
 }
 
 H2 {
 	font-size: 1.2rem;
 	margin: 1rem 0 0 0;
-	color: #30D9E6;
+	color: #F77F02;
 }
 
 .film-time {
@@ -41,14 +56,18 @@ a {
 }
 
 img {
-  max-width: 100%;
+	max-width: 100%;
 	margin-bottom: 1rem;
 }
+
 img[width] {
-  width: auto; /* Defer to max-width */
+	width: auto;
+	/* Defer to max-width */
 }
+
 img[width][height] {
-  height: auto; /* Preserve aspect ratio */
+	height: auto;
+	/* Preserve aspect ratio */
 }
 
 footer {
@@ -58,7 +77,8 @@ footer {
 }
 
 footer a {
-	font-family: 'Confidential', Arial, Helvetica, sans-serif
+	font-family: 'Gill Sans Light', Arial, Helvetica, sans-serif;
+	color: #2EADD9
 }
 
 #rss-icon svg {
@@ -67,7 +87,7 @@ footer a {
 
 .datetime {
 	font-size: 2em;
-	font-family: 'Confidential', Arial;
+	font-family: 'Gill Sans Light', Arial;
 }
 
 .time-and-cert {
@@ -86,7 +106,7 @@ footer a {
 
 .filminfo .property {
 	min-width: 100px;
-	color: #FEA82F;
+	color: #2EADD9;
 	font-weight: bold;
 	font-size: 0.7em;
 	text-transform: uppercase;
@@ -110,4 +130,3 @@ A {
 .actor:last-child::after {
 	content: "";
 }
-
