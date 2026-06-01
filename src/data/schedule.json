@@ -25,14 +25,16 @@
 			"showing": {
 				"timestamp": "2026-07-16T19:00:00+01:00",
 				"text": "16th July 19:00",
-				"day": "Thursday"
+				"day": "Thursday",
+				"session": "pm"
 			},
 			"imdb": "https://www.imdb.com/title/tt8760684/",
 			"trailer": "https://www.imdb.com/video/vi4178360857/",
 			"runTime": {
 				"minutes": 93,
 				"text": "1h 33"
-			}
+			},
+			"spaceThemed": true
 		},
 		{
 			"display": true,
@@ -57,14 +59,16 @@
 			"showing": {
 				"timestamp": "2026-07-16T21:00:00+01:00",
 				"text": "16th July 21:00",
-				"day": "Thursday"
+				"day": "Thursday",
+				"session": "pm"
 			},
 			"imdb": "https://www.imdb.com/title/tt9618750/",
 			"trailer": "https://www.youtube.com/watch?v=j39KsTkedCs",
 			"runTime": {
 				"minutes": 95,
 				"text": "1h 35"
-			}
+			},
+			"spaceThemed": false
 		},
 		{
 			"display": true,
@@ -89,14 +93,16 @@
 			"showing": {
 				"timestamp": "2026-07-17T08:00:00+01:00",
 				"text": "17th July 08:00",
-				"day": "Friday"
+				"day": "Friday",
+				"session": "am"
 			},
 			"imdb": "https://www.imdb.com/title/tt0910970/",
 			"trailer": "https://www.imdb.com/video/vi3450929433/",
 			"runTime": {
 				"minutes": 98,
 				"text": "1h 38"
-			}
+			},
+			"spaceThemed": true
 		},
 		{
 			"display": true,
@@ -130,14 +136,16 @@
 			"showing": {
 				"timestamp": "2026-07-17T19:00:00+01:00",
 				"text": "17th July 19:00",
-				"day": "Friday"
+				"day": "Friday",
+				"session": "pm"
 			},
 			"imdb": "https://www.imdb.com/title/tt0113243/",
 			"trailer": "https://www.youtube.com/watch?v=Rn2cf_wJ4f4",
 			"runTime": {
 				"minutes": 101,
 				"text": "1h 41"
-			}
+			},
+			"spaceThemed": false
 		},
 		{
 			"display": true,
@@ -161,14 +169,16 @@
 			"showing": {
 				"timestamp": "2026-07-17T22:00:00+01:00",
 				"text": "17th July 22:00",
-				"day": "Friday"
+				"day": "Friday",
+				"session": "pm"
 			},
 			"imdb": "https://www.imdb.com/title/tt0062622/",
 			"trailer": "https://www.imdb.com/video/vi2388329497/",
 			"runTime": {
 				"minutes": 149,
 				"text": "2h 29"
-			}
+			},
+			"spaceThemed": true
 		},
 		{
 			"display": true,
@@ -191,14 +201,16 @@
 			"showing": {
 				"timestamp": "2026-07-18T08:30:00+01:00",
 				"text": "18th July 08:30",
-				"day": "Saturday"
+				"day": "Saturday",
+				"session": "am"
 			},
 			"imdb": "https://www.imdb.com/title/tt0104361/",
 			"trailer": "https://www.youtube.com/watch?v=ablYsAGtuSM",
 			"runTime": {
 				"minutes": 60,
 				"text": "1h 00"
-			}
+			},
+			"spaceThemed": false
 		},
 		{
 			"display": true,
@@ -223,14 +235,16 @@
 			"showing": {
 				"timestamp": "2026-07-18T19:00:00+01:00",
 				"text": "18th July 19:00",
-				"day": "Saturday"
+				"day": "Saturday",
+				"session": "pm"
 			},
 			"imdb": "https://www.imdb.com/title/tt0112384/",
 			"trailer": "https://www.imdb.com/video/vi3653290009/",
 			"runTime": {
 				"minutes": 140,
 				"text": "2h 20"
-			}
+			},
+			"spaceThemed": true
 		},
 		{
 			"display": true,
@@ -252,14 +266,16 @@
 			"showing": {
 				"timestamp": "2026-07-18T22:00:00+01:00",
 				"text": "18th July 22:00",
-				"day": "Saturday"
+				"day": "Saturday",
+				"session": "pm"
 			},
 			"imdb": "https://www.imdb.com/title/tt1182345/",
 			"trailer": "https://www.imdb.com/video/vi1265108249/",
 			"runTime": {
 				"minutes": 97,
 				"text": "1h 37"
-			}
+			},
+			"spaceThemed": true
 		},
 		{
 			"display": true,
@@ -284,14 +300,16 @@
 			"showing": {
 				"timestamp": "2026-07-19T08:00:00+01:00",
 				"text": "19th July 19:00",
-				"day": "Sunday"
+				"day": "Sunday",
+				"session": "am"
 			},
 			"imdb": "https://www.imdb.com/title/tt0892769/",
 			"trailer": "https://www.imdb.com/video/vi3870033177/",
 			"runTime": {
 				"minutes": 98,
 				"text": "1h 38"
-			}
+			},
+			"spaceThemed": false
 		},
 		{
 			"display": true,
@@ -315,14 +333,16 @@
 			"showing": {
 				"timestamp": "2026-07-19T18:30:00+01:00",
 				"text": "19th July 18:30",
-				"day": "Sunday"
+				"day": "Sunday",
+				"session": "pm"
 			},
 			"imdb": "https://www.imdb.com/title/tt0093779/",
 			"trailer": "https://www.imdb.com/video/vi1571095833/",
 			"runTime": {
 				"minutes": 101,
 				"text": "1h 41"
-			}
+			},
+			"spaceThemed": false
 		},
 		{
 			"display": true,
@@ -345,14 +365,16 @@
 			"showing": {
 				"timestamp": "2026-07-19T21:00:00+01:00",
 				"text": "19th July 21:00",
-				"day": "Sunday"
+				"day": "Sunday",
+				"session": "pm"
 			},
 			"imdb": "https://www.imdb.com/title/tt0118884/",
 			"trailer": "https://www.imdb.com/video/vi2509177369/",
 			"runTime": {
 				"minutes": 150,
 				"text": "2h 30"
-			}
+			},
+			"spaceThemed": true
 		},
 		{
 			"display": false,
@@ -382,7 +404,8 @@
 			"runTime": {
 				"minutes": 101,
 				"text": "1h 41"
-			}
+			},
+			"spaceThemed": true
 		}
 	]
 }

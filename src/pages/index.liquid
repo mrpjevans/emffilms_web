@@ -4,13 +4,51 @@ title: Home
 eleventyExcludeFromCollections: true
 ---
 
+<div class="selectionBar text-center">
+	<div class="btn-group" role="group" aria-label="Select day" onchange="filterMovies()">
+		<input type="radio" class="btn-check" value="all" name="selectDay" id="selectDayAll" autocomplete="off" checked>
+		<label class="btn btn-outline-primary" for="selectDayAll">All</label>
+
+		<input type="radio" class="btn-check" value="Thursday" name="selectDay" id="selectDayThurs" autocomplete="off">
+		<label class="btn btn-outline-primary" for="selectDayThurs">Thursday</label>
+
+		<input type="radio" class="btn-check" value="Friday" name="selectDay" id="selectDayFri" autocomplete="off">
+		<label class="btn btn-outline-primary" for="selectDayFri">Friday</label>
+
+		<input type="radio" class="btn-check" value="Saturday" name="selectDay" id="selectDaySat" autocomplete="off">
+		<label class="btn btn-outline-primary" for="selectDaySat">Saturday</label>
+
+		<input type="radio" class="btn-check" value="Sunday" name="selectDay" id="selectDaySun" autocomplete="off">
+		<label class="btn btn-outline-primary" for="selectDaySun">Sunday</label>
+	</div>
+
+	<div class="btn-group" role="group" aria-label="Select theme" onchange="filterMovies()">
+		<input type="radio" class="btn-check" value="all" name="selectTheme" id="selectThemeAll" autocomplete="off" checked>
+		<label class="btn btn-outline-primary" for="selectThemeAll">All</label>
+
+		<input type="radio" class="btn-check" value="space" name="selectTheme" id="selectThemeSpace" autocomplete="off">
+		<label class="btn btn-outline-primary" for="selectThemeSpace">Space Themed</label>
+	</div>
+
+	<div class="btn-group" role="group" aria-label="Basic radio toggle button group" onchange="filterMovies()">
+		<input type="radio" class="btn-check" value="all" name="selectSession" id="selectSessionAll" autocomplete="off" checked>
+		<label class="btn btn-outline-primary" for="selectSessionAll">All</label>
+	
+		<input type="radio" class="btn-check" value="am" name="selectSession" id="selectSessionMorning" autocomplete="off">
+		<label class="btn btn-outline-primary" for="selectSessionMorning">Morning</label>
+
+		<input type="radio" class="btn-check" value="pm" name="selectSession" id="selectSessionEvening" autocomplete="off">
+		<label class="btn btn-outline-primary" for="selectSessionEvening">Evening</label>
+	</div>
+</div>
+
 <div class="row">
 
   {%- for film in schedule.films -%}
 
     {%- if film.display %}
 
-      <div class="col-sm-12 col-md-4">
+      <div class="col-sm-12 col-md-4" name="film" data-space="{{ film.spaceThemed }}" data-day="{{ film.showing.day }}" data-session="{{ film.showing.session }}">
 
         <a href="/films/{{ film.slug }}">
           <div class="text-center">
@@ -29,3 +67,25 @@ eleventyExcludeFromCollections: true
   {%- endfor -%}
 
 </div>
+
+<script>
+	function filterMovies() {
+		const day = document.querySelector("input[name=selectDay]:checked").value;
+		const theme = document.querySelector("input[name=selectTheme]:checked").value;
+		const session = document.querySelector("input[name=selectSession]:checked").value;
+
+		document.getElementsByName("film").forEach(film => {
+
+			film.style.display = "block";
+			
+			if(
+				(day !== "all" && film.getAttribute("data-day") !== day) ||
+				(theme !== "all" && film.getAttribute("data-space") === "false") ||
+				(session !== "all" && film.getAttribute("data-session") !== session)
+			) {
+				film.style.display = "none";
+			}
+
+		})
+	}
+</script>
