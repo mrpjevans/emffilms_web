@@ -8,6 +8,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("src/css/GillSansLight.otf");
 	eleventyConfig.addPassthroughCopy("src/css/GillSans.otf");
 	eleventyConfig.addPassthroughCopy("./favicon.jpg");
+	eleventyConfig.addPassthroughCopy("src/logo.png");
 	eleventyConfig.addPassthroughCopy({
 		"src/data/schedule.json": "schedule.json",
 	});
