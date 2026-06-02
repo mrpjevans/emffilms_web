@@ -49,6 +49,12 @@ H2 {
 .film-time {
 	font-size: 1.4rem;
 	color: #BAC2C9;
+	margin: 0;
+}
+
+.film-special {
+	font-size: 1rem;
+	line-height: 50%;
 }
 
 a {
@@ -137,10 +143,29 @@ A {
 
 .selectionBar .btn-group {
 	margin-top: 1rem;
+	margin-bottom: 1rem;
 }
 
 #logo IMG {
 	width: 2rem;
 	margin: 0;
 	margin-top: -0.6rem;
+}
+
+.cert {
+	width: 1.3rem;
+	margin-top: 10px;
+}
+
+H1 .cert {
+	width: 1.3rem;
+	margin-top: 2rem;
+}
+
+.film[data-slug=dragon] H2 {
+	font-size: 1.7rem;
+}
+
+.film[data-slug=dragon] .film-special {
+	margin-bottom: 1.6rem;
 }

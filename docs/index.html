@@ -16,8 +16,8 @@
 
     <link
       rel="icon"
-      type="image/jpeg"
-      href="/favicon.jpg">
+      type="image/png"
+      href="/favicon.png">
 
     <link
       rel="alternate"
@@ -25,7 +25,7 @@
       title="EMF Films RSS Feed"
       href="https://emffilms.org/feed/feed.xml" />
 
-    <title>EMF Films | Home</title>
+		<title>EMF Films | Home</title>
   </head>
   <body data-bs-theme="dark">
 
@@ -40,7 +40,7 @@
                   class="navbar-brand logo"
                   href="/"
                   id="logo">
-    								<img src="src/logo.png"/>
+    								<img src="/src/logo.png"/>
 										ELECTROMAGNETIC<b>FILM</b>2O26
 								</a> 
 
@@ -86,7 +86,7 @@
 		<label class="btn btn-outline-primary" for="selectThemeAll">All</label>
 
 		<input type="radio" class="btn-check" value="space" name="selectTheme" id="selectThemeSpace" autocomplete="off">
-		<label class="btn btn-outline-primary" for="selectThemeSpace">Space Themed</label>
+		<label class="btn btn-outline-primary" for="selectThemeSpace">SPACE!</label>
 	</div>
 
 	<div class="btn-group" role="group" aria-label="Basic radio toggle button group" onchange="filterMovies()">
@@ -103,12 +103,13 @@
 
 <div class="row">
 
-      <div class="col-sm-12 col-md-4" name="film" data-space="true" data-day="Thursday" data-session="pm">
+      <div class="col-sm-12 col-md-4 film" name="film" data-slug="apollo11" data-space="true" data-day="Thursday" data-session="pm">
 
         <a href="/films/apollo11">
           <div class="text-center">
             <h2 class="text-uppercase">Apollo 11</h2>
-            <p class="film-time">Thursday 16th July 19:00</p>
+            <p class="film-time">Thursday 16th July 19:00 <img class="cert" src="src/certs/E.svg" /></p>
+						<p class="film-special">Introduction By Archive Producer Stephen Slater&nbsp;</p>
           </div>
           <div>
             
@@ -118,12 +119,13 @@
 
       </div>
 
-      <div class="col-sm-12 col-md-4" name="film" data-space="false" data-day="Thursday" data-session="pm">
+      <div class="col-sm-12 col-md-4 film" name="film" data-slug="heartofneon" data-space="false" data-day="Thursday" data-session="pm">
 
         <a href="/films/heartofneon">
           <div class="text-center">
             <h2 class="text-uppercase">Heart Of Neon</h2>
-            <p class="film-time">Thursday 16th July 21:00</p>
+            <p class="film-time">Thursday 16th July 21:00 <img class="cert" src="src/certs/E.svg" /></p>
+						<p class="film-special">Pre-Recorded Introduction By Director Paul Docherty&nbsp;</p>
           </div>
           <div>
             
@@ -133,12 +135,13 @@
 
       </div>
 
-      <div class="col-sm-12 col-md-4" name="film" data-space="true" data-day="Friday" data-session="am">
+      <div class="col-sm-12 col-md-4 film" name="film" data-slug="walle" data-space="true" data-day="Friday" data-session="am">
 
         <a href="/films/walle">
           <div class="text-center">
             <h2 class="text-uppercase">WALL-E</h2>
-            <p class="film-time">Friday 17th July 08:00</p>
+            <p class="film-time">Friday 17th July 08:00 <img class="cert" src="src/certs/U.svg" /></p>
+						<p class="film-special">&nbsp;</p>
           </div>
           <div>
             
@@ -148,12 +151,13 @@
 
       </div>
 
-      <div class="col-sm-12 col-md-4" name="film" data-space="false" data-day="Friday" data-session="pm">
+      <div class="col-sm-12 col-md-4 film" name="film" data-slug="hackers" data-space="false" data-day="Friday" data-session="pm">
 
         <a href="/films/hackers">
           <div class="text-center">
             <h2 class="text-uppercase">Hackers</h2>
-            <p class="film-time">Friday 17th July 19:00</p>
+            <p class="film-time">Friday 17th July 19:00 <img class="cert" src="src/certs/12.svg" /></p>
+						<p class="film-special">Introduction By Director Iain Softley&nbsp;</p>
           </div>
           <div>
             
@@ -163,12 +167,13 @@
 
       </div>
 
-      <div class="col-sm-12 col-md-4" name="film" data-space="true" data-day="Friday" data-session="pm">
+      <div class="col-sm-12 col-md-4 film" name="film" data-slug="2001" data-space="true" data-day="Friday" data-session="pm">
 
         <a href="/films/2001">
           <div class="text-center">
             <h2 class="text-uppercase">2OO1: A Space Odyssey</h2>
-            <p class="film-time">Friday 17th July 22:00</p>
+            <p class="film-time">Friday 17th July 22:00 <img class="cert" src="src/certs/U.svg" /></p>
+						<p class="film-special">&nbsp;</p>
           </div>
           <div>
             
@@ -178,27 +183,29 @@
 
       </div>
 
-      <div class="col-sm-12 col-md-4" name="film" data-space="false" data-day="Saturday" data-session="am">
+      <div class="col-sm-12 col-md-4 film" name="film" data-slug="grand" data-space="false" data-day="Saturday" data-session="am">
 
         <a href="/films/grand">
           <div class="text-center">
             <h2 class="text-uppercase">Wallace & Gromit</h2>
-            <p class="film-time">Saturday 18th July 08:30</p>
+            <p class="film-time">Saturday 18th July 08:30 <img class="cert" src="src/certs/U.svg" /></p>
+						<p class="film-special">A Grand Day Out & The Wrong Trousers Double-Bill&nbsp;</p>
           </div>
           <div>
             
-            <img alt="Poster" loading="lazy" decoding="async" src="/img/2026-05/poster_grand-588w.jpeg" width="588" height="837">
+            <img alt="Poster" loading="lazy" decoding="async" src="/img/2026-06/poster_grand_wrongtrousers-640w.jpeg" width="768" height="1086" srcset="/img/2026-06/poster_grand_wrongtrousers-640w.jpeg 640w, /img/2026-06/poster_grand_wrongtrousers-768w.jpeg 768w" sizes="(min-width: 30em) 50vw, 100vw">
           </div>
         </a>
 
       </div>
 
-      <div class="col-sm-12 col-md-4" name="film" data-space="true" data-day="Saturday" data-session="pm">
+      <div class="col-sm-12 col-md-4 film" name="film" data-slug="apollo13" data-space="true" data-day="Saturday" data-session="pm">
 
         <a href="/films/apollo13">
           <div class="text-center">
             <h2 class="text-uppercase">Apollo 13</h2>
-            <p class="film-time">Saturday 18th July 19:00</p>
+            <p class="film-time">Saturday 18th July 19:00 <img class="cert" src="src/certs/U.svg" /></p>
+						<p class="film-special">Presented On 35mm Film&nbsp;</p>
           </div>
           <div>
             
@@ -208,12 +215,13 @@
 
       </div>
 
-      <div class="col-sm-12 col-md-4" name="film" data-space="true" data-day="Saturday" data-session="pm">
+      <div class="col-sm-12 col-md-4 film" name="film" data-slug="moon" data-space="true" data-day="Saturday" data-session="pm">
 
         <a href="/films/moon">
           <div class="text-center">
             <h2 class="text-uppercase">MOON</h2>
-            <p class="film-time">Saturday 18th July 22:00</p>
+            <p class="film-time">Saturday 18th July 22:00 <img class="cert" src="src/certs/15.svg" /></p>
+						<p class="film-special">&nbsp;</p>
           </div>
           <div>
             
@@ -223,12 +231,13 @@
 
       </div>
 
-      <div class="col-sm-12 col-md-4" name="film" data-space="false" data-day="Sunday" data-session="am">
+      <div class="col-sm-12 col-md-4 film" name="film" data-slug="dragon" data-space="false" data-day="Sunday" data-session="am">
 
         <a href="/films/dragon">
           <div class="text-center">
             <h2 class="text-uppercase">How To Train Your Dragon</h2>
-            <p class="film-time">Sunday 19th July 19:00</p>
+            <p class="film-time">Sunday 19th July 19:00 <img class="cert" src="src/certs/U.svg" /></p>
+						<p class="film-special">Presented On 35mm Film&nbsp;</p>
           </div>
           <div>
             
@@ -238,12 +247,13 @@
 
       </div>
 
-      <div class="col-sm-12 col-md-4" name="film" data-space="false" data-day="Sunday" data-session="pm">
+      <div class="col-sm-12 col-md-4 film" name="film" data-slug="princessbride" data-space="false" data-day="Sunday" data-session="pm">
 
         <a href="/films/princessbride">
           <div class="text-center">
             <h2 class="text-uppercase">The Princess Bride</h2>
-            <p class="film-time">Sunday 19th July 18:30</p>
+            <p class="film-time">Sunday 19th July 18:30 <img class="cert" src="src/certs/U.svg" /></p>
+						<p class="film-special">&nbsp;</p>
           </div>
           <div>
             
@@ -253,12 +263,13 @@
 
       </div>
 
-      <div class="col-sm-12 col-md-4" name="film" data-space="true" data-day="Sunday" data-session="pm">
+      <div class="col-sm-12 col-md-4 film" name="film" data-slug="contact" data-space="true" data-day="Sunday" data-session="pm">
 
         <a href="/films/contact">
           <div class="text-center">
             <h2 class="text-uppercase">Contact</h2>
-            <p class="film-time">Sunday 19th July 21:00</p>
+            <p class="film-time">Sunday 19th July 21:00 <img class="cert" src="src/certs/12.svg" /></p>
+						<p class="film-special">&nbsp;</p>
           </div>
           <div>
             

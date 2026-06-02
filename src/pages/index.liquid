@@ -27,7 +27,7 @@ eleventyExcludeFromCollections: true
 		<label class="btn btn-outline-primary" for="selectThemeAll">All</label>
 
 		<input type="radio" class="btn-check" value="space" name="selectTheme" id="selectThemeSpace" autocomplete="off">
-		<label class="btn btn-outline-primary" for="selectThemeSpace">Space Themed</label>
+		<label class="btn btn-outline-primary" for="selectThemeSpace">SPACE!</label>
 	</div>
 
 	<div class="btn-group" role="group" aria-label="Basic radio toggle button group" onchange="filterMovies()">
@@ -48,12 +48,13 @@ eleventyExcludeFromCollections: true
 
     {%- if film.display %}
 
-      <div class="col-sm-12 col-md-4" name="film" data-space="{{ film.spaceThemed }}" data-day="{{ film.showing.day }}" data-session="{{ film.showing.session }}">
+      <div class="col-sm-12 col-md-4 film" name="film" data-slug="{{ film.slug  }}" data-space="{{ film.spaceThemed }}" data-day="{{ film.showing.day }}" data-session="{{ film.showing.session }}">
 
         <a href="/films/{{ film.slug }}">
           <div class="text-center">
             <h2 class="text-uppercase">{{ film.title }}</h2>
-            <p class="film-time">{{ film.showing.day }} {{ film.showing.text }}</p>
+            <p class="film-time">{{ film.showing.day }} {{ film.showing.text }} <img class="cert" src="src/certs/{{ film.certificate }}.svg" /></p>
+						<p class="film-special">{{ film.precis.special }}&nbsp;</p>
           </div>
           <div>
             {% assign url = "../images/" | append: film.image %}

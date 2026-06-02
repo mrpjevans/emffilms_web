@@ -19,8 +19,8 @@ title: None
 
     <link
       rel="icon"
-      type="image/jpeg"
-      href="/favicon.jpg">
+      type="image/png"
+      href="/favicon.png">
 
     <link
       rel="alternate"
@@ -28,7 +28,7 @@ title: None
       title="EMF Films RSS Feed"
       href="https://emffilms.org/feed/feed.xml" />
 
-    <title>EMF Films | {{ title }}</title>
+		<title>EMF Films | {% if title != "None" %}{{ title }}{% else %}{{ film.title }}{% endif %}</title>
   </head>
   <body data-bs-theme="dark">
 
@@ -43,7 +43,7 @@ title: None
                   class="navbar-brand logo"
                   href="/"
                   id="logo">
-    								<img src="src/logo.png"/>
+    								<img src="/src/logo.png"/>
 										ELECTROMAGNETIC<b>FILM</b>2O26
 								</a> 
 

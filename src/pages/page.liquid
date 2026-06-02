@@ -20,7 +20,7 @@ permalink: "films/{{ film.slug }}/"
       {{ film.showing.day }} {{ film.showing.text }}
     </div>
 
-    <h1>{{ film.title }}</h1>
+    <h1 data-slug="{{ film.slug  }}">{{ film.title }} <img class="cert" src="/src/certs/{{ film.certificate }}.svg" title="Certificate {{ film.certificate }}" /></h1>
 
     <div class="time-and-cert">
       {{ film.year }} - {{ film.runTime.text }} - {{ film.certificate }}
