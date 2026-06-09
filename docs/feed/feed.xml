@@ -3,7 +3,7 @@
   <title>EMF Films</title>
   <link href="https://emffilms.org/feed/feed.xml" rel="self"/>
   <link href="https://emffilms.org/films/"/>
-  <updated>2026-06-02T18:22:07Z</updated>
+  <updated>2026-06-08T17:37:54Z</updated>
   <id>https://emffilms.org/films/</id>
   <author>
     <name>EMF Films Team</name>
@@ -24,16 +24,16 @@
       </entry>
       
       <entry>
-        <title>Heart Of Neon</title>
-        <link href="https://emffilms.org/films/heartofneon"/>
+        <title>This Is Spinal Tap</title>
+        <link href="https://emffilms.org/films/spinaltap"/>
         <updated>2026-07-16T21:00:00+01:00</updated>
-        <id>https://emffilms.org/films/heartofneon</id>
+        <id>https://emffilms.org/films/spinaltap</id>
         <content type="html">
           <p>Thursday
             16th July 21:00</p>
-          <p>2025 - 1h 35 - E</p>
-          <p>The remarkable history of video games pioneer Jeff Minter.</p>
-          <p>Jeff Minter is an exceptional video game developer who, for decades, has remained independent in an industry where corporations dictate the terms. HEART OF NEON charts Jeff&#39;s 40-year career from pioneer to legend, mapping the territory Jeff traversed, becoming a beacon to everyone drawn to the same purity he admires in classic gaming, drawn to the beautiful lights.&lt;br/&gt;&lt;br/&gt;Director Paul Docherty has recorded a special introduction to the film exclusively for EMF attendees.</p>
+          <p>1984 - 1h 22 - 15</p>
+          <p>A spoof documentary of a hapless UK rock band</p>
+          <p>In our first of two films celebrating the life and works of Rob Reiner, we join hapless UK rockers Spinal Tap on a comeback tour of America where everything that could go wrong, does go wrong. Endlessly quotable, this documentary (sorry, &lt;i&gt;rockumentary&lt;/i&gt;) put Reiner on the map and gave birth to a now-legendary band.</p>
         </content>
       </entry>
       

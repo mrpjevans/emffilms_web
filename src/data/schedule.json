@@ -37,7 +37,7 @@
 			"spaceThemed": true
 		},
 		{
-			"display": true,
+			"display": false,
 			"slug": "heartofneon",
 			"title": "Heart Of Neon",
 			"director": "Paul Docherty",
@@ -67,6 +67,40 @@
 			"runTime": {
 				"minutes": 95,
 				"text": "1h 35"
+			},
+			"spaceThemed": false
+		},
+		{
+			"display": true,
+			"slug": "spinaltap",
+			"title": "This Is Spinal Tap",
+			"director": "Rob Reiner",
+			"year": 1984,
+			"certificate": "15",
+			"poster": "https://www.imdb.com/title/tt0088258/mediaviewer/rm4265401600/",
+			"image": "poster_spinal.jpg",
+			"starring": [
+				"Michael McKean",
+				"Christopher Guest",
+				"Harry Shearer",
+				"Rob Reiner"
+			],
+			"precis": {
+				"full": "In our first of two films celebrating the life and works of Rob Reiner, we join hapless UK rockers Spinal Tap on a comeback tour of America where everything that could go wrong, does go wrong. Endlessly quotable, this documentary (sorry, <i>rockumentary</i>) put Reiner on the map and gave birth to a now-legendary band.",
+				"oneLine": "A spoof documentary of a hapless UK rock band"
+			},
+			"tagline": "This ain't just rock and roll... Life on the road was never this funny!",
+			"showing": {
+				"timestamp": "2026-07-16T21:00:00+01:00",
+				"text": "16th July 21:00",
+				"day": "Thursday",
+				"session": "pm"
+			},
+			"imdb": "https://www.imdb.com/title/tt0088258/",
+			"trailer": "https://www.youtube.com/watch?v=HsFm6Yk_HkE",
+			"runTime": {
+				"minutes": 82,
+				"text": "1h 22"
 			},
 			"spaceThemed": false
 		},
