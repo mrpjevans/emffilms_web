@@ -1,6 +1,7 @@
 @font-face {
 	font-family: 'Gill Sans Light';
-	src: url('GillSansLight.oft') format('opentype');
+	src: url('GillSans-Light.woff2') format('woff2'),
+		url('GillSansLight.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
@@ -8,7 +9,8 @@
 
 @font-face {
 	font-family: 'Gill Sans';
-	src: url('GillSans.oft') format('opentype');
+	src: url('GillSans.woff2') format('woff2'),
+		url('GillSans.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
@@ -27,8 +29,16 @@ BODY {
 .logo,
 .backlink a {
 	font-family: 'Gill Sans Light', Arial;
-	font-size: 3rem;
+	font-size: 3vw;
 	font-weight: 300;
+}
+
+@media (max-width: 600px) {
+
+	.logo,
+	.backlink a {
+		font-size: 4vw;
+	}
 }
 
 .logo B {
