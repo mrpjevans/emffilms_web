@@ -179,3 +179,7 @@ H1 .cert {
 .film[data-slug=dragon] .film-special {
 	margin-bottom: 1.6rem;
 }
+
+.btn-group label {
+	padding: 0.5rem 1rem 0.2rem 1rem;
+}
