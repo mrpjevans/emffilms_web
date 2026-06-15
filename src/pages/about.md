@@ -11,7 +11,7 @@ Movies and events every morning and night at Electromagnetic Field. Find us in S
 ## Morning Films
 
 For the first time we are showing films in the morning for our younger attendees (although everyone is welcome).
-Check the schedule for events startiong around 08:00 from Friday onwards. These showings will not feature ads and
+Check the schedule for events starting around 08:00 from Friday onwards. These showings will not feature ads and
 limited snacks will be available.
 
 ## 35mm Projection
