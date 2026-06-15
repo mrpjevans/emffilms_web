@@ -4,11 +4,7 @@ const pluginImages = require("./eleventy.config.images.js");
 const pluginDrafts = require("./eleventy.config.drafts.js");
 
 module.exports = function (eleventyConfig) {
-	eleventyConfig.addPassthroughCopy("src/css/emffilms.css");
-	eleventyConfig.addPassthroughCopy("src/css/GillSansLight.woff");
-	eleventyConfig.addPassthroughCopy("src/css/GillSansLight.woff2");
-	eleventyConfig.addPassthroughCopy("src/css/GillSans.woff");
-	eleventyConfig.addPassthroughCopy("src/css/GillSans.woff2");
+	eleventyConfig.addPassthroughCopy("src/css/");
 	eleventyConfig.addPassthroughCopy("./favicon.png");
 	eleventyConfig.addPassthroughCopy("src/logo.png");
 	eleventyConfig.addPassthroughCopy("src/certs/");
