@@ -26,6 +26,12 @@ BODY {
 
 }
 
+.alert-ads {
+	margin-top: 1rem;
+	line-height: 0rem;
+	padding: 1.5rem 1rem 1rem 1rem;
+}
+
 .logo,
 .backlink a {
 	font-family: 'Gill Sans Light', Arial;
