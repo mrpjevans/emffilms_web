@@ -30,8 +30,11 @@ eleventyExcludeFromCollections: true
 		<input type="radio" class="btn-check" value="all" name="selectTheme" id="selectThemeAll" autocomplete="off" checked>
 		<label class="btn btn-outline-primary" for="selectThemeAll">All</label>
 
-		<input type="radio" class="btn-check" value="space" name="selectTheme" id="selectThemeSpace" autocomplete="off">
+		<input type="radio" class="btn-check" value="false" name="selectTheme" id="selectThemeSpace" autocomplete="off">
 		<label class="btn btn-outline-primary" for="selectThemeSpace">SPACE!</label>
+
+		<input type="radio" class="btn-check" value="true" name="selectTheme" id="selectThemeNoSpace" autocomplete="off">
+		<label class="btn btn-outline-primary" for="selectThemeNoSpace">!SPACE</label>
 	</div>
 
 	<div class="btn-group" role="group" aria-label="Basic radio toggle button group" onchange="filterMovies()">
@@ -85,7 +88,7 @@ eleventyExcludeFromCollections: true
 			
 			if(
 				(day !== "all" && film.getAttribute("data-day") !== day) ||
-				(theme !== "all" && film.getAttribute("data-space") === "false") ||
+				(theme !== "all" && film.getAttribute("data-space") === theme) ||
 				(session !== "all" && film.getAttribute("data-session") !== session)
 			) {
 				film.style.display = "none";
