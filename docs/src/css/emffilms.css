@@ -27,17 +27,43 @@ BODY {
 }
 
 .alert-ads {
-	font-size: 1.1vw;
 	margin-top: 1rem;
-	line-height: 0rem;
+	line-height: 1.2;
 	padding: 1.5rem 1rem 1rem 1rem;
 }
 
 
-@media (max-width: 500px) {
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
 	.alert-ads {
 		font-size: 3vw;
 	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	.alert-ads {
+		font-size: 2vw;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.alert-ads {
+		font-size: 1.8vw;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.alert-ads {
+		font-size: 2vw;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	.alert-ads {}
 }
 
 
