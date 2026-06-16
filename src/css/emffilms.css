@@ -27,10 +27,19 @@ BODY {
 }
 
 .alert-ads {
+	font-size: 1.1vw;
 	margin-top: 1rem;
 	line-height: 0rem;
 	padding: 1.5rem 1rem 1rem 1rem;
 }
+
+
+@media (max-width: 500px) {
+	.alert-ads {
+		font-size: 3vw;
+	}
+}
+
 
 .logo,
 .backlink a {
