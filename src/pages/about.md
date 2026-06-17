@@ -22,6 +22,9 @@ For the first time, some of our features will be shown on original 35mm film. Se
 
 Watch out for appearances from directors and producers throughout the weekend.
 
+## Teeny-Tiny API
+Want the schedule in JSON format with loads more metadata? <a href="https://films.emfcamp.org/schedule.json">https://films.emfcamp.org/schedule.json</a> (Let us know what you get up to with it!)
+
 ## Contact
 
 No, not the film. To contact us from a DECT phone dial FILM (3456). Otherwise, see us in Stage C or come say hi at Film HQ,
