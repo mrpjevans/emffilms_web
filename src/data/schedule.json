@@ -282,32 +282,33 @@
 		},
 		{
 			"display": true,
-			"slug": "moon",
-			"title": "MOON",
-			"director": "Duncan Jones",
-			"year": 2009,
-			"certificate": "15",
-			"poster": "https://www.imdb.com/title/tt1182345/mediaviewer/rm1680837376/",
-			"image": "poster_moon.jpg",
+			"slug": "contact",
+			"title": "Contact",
+			"director": "Robert Zemeckis",
+			"year": 1997,
+			"certificate": "12",
+			"poster": "https://www.imdb.com/title/tt0118884/mediaviewer/rm3416921088/",
+			"image": "poster_contact.jpg",
 			"starring": [
-				"Sam Rockwell"
+				"Jodie Foster",
+				"Matthew McConaughey"
 			],
 			"precis": {
-				"full": "When Sam Bell signs up for a three-year mining contract working on Sarang Moon base, he assumes he is alone. He is wrong. Beautifully shot by Duncan Jones and with thumping music by Clint Mansell, Moon is dark, claustrophobic and at times surreal.",
-				"oneLine": "Sam Bell encounters the most terrifying thing on a Moon base. Himself."
+				"full": "Our final film is one of our most requested. Contact is adaptation of Carl Sagan's book on how we may encounter alien life. A message is received from deep space with instructions for a new type of craft. What follows is politics, lies and wonder. The cinematography alone make this worth a watch. How did they shoot the scene with the bathroom cabinet?",
+				"oneLine": "When a message is received from deep space, a young scientist is given the chance to be the first make contact."
 			},
-			"tagline": "The last place you'd ever expect to find yourself",
+			"tagline": "A message from deep space. Who will be the first to go? A journey to the heart of the universe",
 			"showing": {
 				"timestamp": "2026-07-18T22:00:00+01:00",
 				"text": "18th July 22:00",
 				"day": "Saturday",
 				"session": "pm"
 			},
-			"imdb": "https://www.imdb.com/title/tt1182345/",
-			"trailer": "https://www.imdb.com/video/vi1265108249/",
+			"imdb": "https://www.imdb.com/title/tt0118884/",
+			"trailer": "https://www.imdb.com/video/vi2509177369/",
 			"runTime": {
-				"minutes": 97,
-				"text": "1h 37"
+				"minutes": 150,
+				"text": "2h 30"
 			},
 			"spaceThemed": true
 		},
@@ -361,12 +362,12 @@
 			],
 			"precis": {
 				"full": "Hello. Our name is Films Team. You've attended our screening, prepare to see a movie. Winding up our programme, this special tribute to the late Rob Reiner is an outright classic. Despite it's fairytale exterior, it's full of laughs, endlessly quotable lines, pythonesque moments and of course <i>that</i> speech. Come and join in with all best lines. Missing this? INCONCEIVABLE!",
-				"oneLine": "A mapcap fairytale adventure with countless cameos, quatable lines and general silliness."
+				"oneLine": "A mapcap fairytale adventure with countless cameos, quotable lines and general silliness."
 			},
 			"tagline": "It's as real as the feelings you feel",
 			"showing": {
-				"timestamp": "2026-07-19T18:30:00+01:00",
-				"text": "19th July 18:30",
+				"timestamp": "2026-07-19T20:15:00+01:00",
+				"text": "19th July 20:15",
 				"day": "Sunday",
 				"session": "pm"
 			},
@@ -380,64 +381,32 @@
 		},
 		{
 			"display": true,
-			"slug": "contact",
-			"title": "Contact",
-			"director": "Robert Zemeckis",
-			"year": 1997,
-			"certificate": "12",
-			"poster": "https://www.imdb.com/title/tt0118884/mediaviewer/rm3416921088/",
-			"image": "poster_contact.jpg",
+			"slug": "moon",
+			"title": "MOON",
+			"director": "Duncan Jones",
+			"year": 2009,
+			"certificate": "15",
+			"poster": "https://www.imdb.com/title/tt1182345/mediaviewer/rm1680837376/",
+			"image": "poster_moon.jpg",
 			"starring": [
-				"Jodie Foster",
-				"Matthew McConaughey"
+				"Sam Rockwell"
 			],
 			"precis": {
-				"full": "Our final film is one of our most requested. Contact is adaptation of Carl Sagan's book on how we may encounter alien life. A message is received from deep space with instructions for a new type of craft. What follows is politics, lies and wonder. The cinematography alone make this worth a watch. How did they shoot the scene with the bathroom cabinet?",
-				"oneLine": "When a message is received from deep space, a young scientist is given the chance to be the first make contact."
+				"full": "When Sam Bell signs up for a three-year mining contract working on Sarang Moon base, he assumes he is alone. He is wrong. Beautifully shot by Duncan Jones and with thumping music by Clint Mansell, Moon is dark, claustrophobic and at times surreal.",
+				"oneLine": "Sam Bell encounters the most terrifying thing on a Moon base. Himself."
 			},
-			"tagline": "A message from deep space. Who will be the first to go? A journey to the heart of the universe",
+			"tagline": "The last place you'd ever expect to find yourself",
 			"showing": {
-				"timestamp": "2026-07-19T21:00:00+01:00",
-				"text": "19th July 21:00",
+				"timestamp": "2026-07-19T22:00:00+01:00",
+				"text": "19th July 22:00",
 				"day": "Sunday",
 				"session": "pm"
 			},
-			"imdb": "https://www.imdb.com/title/tt0118884/",
-			"trailer": "https://www.imdb.com/video/vi2509177369/",
+			"imdb": "https://www.imdb.com/title/tt1182345/",
+			"trailer": "https://www.imdb.com/video/vi1265108249/",
 			"runTime": {
-				"minutes": 150,
-				"text": "2h 30"
-			},
-			"spaceThemed": true
-		},
-		{
-			"display": false,
-			"slug": "template",
-			"title": "TEMPLATE",
-			"director": "",
-			"year": 1,
-			"certificate": "E",
-			"poster": "",
-			"image": "poster_hackers.jpg",
-			"starring": [
-				"Jonny Lee Miller"
-			],
-			"precis": {
-				"full": "",
-				"oneLine": "",
-				"special": ""
-			},
-			"tagline": "",
-			"showing": {
-				"timestamp": "2026-07-17T19:00:00+01:00",
-				"text": "17th July 19:00",
-				"day": "Friday"
-			},
-			"imdb": "",
-			"trailer": "",
-			"runTime": {
-				"minutes": 101,
-				"text": "1h 41"
+				"minutes": 97,
+				"text": "1h 37"
 			},
 			"spaceThemed": true
 		}

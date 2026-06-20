@@ -3,7 +3,7 @@
   <title>EMF Films</title>
   <link href="https://emffilms.org/feed/feed.xml" rel="self"/>
   <link href="https://emffilms.org/films/"/>
-  <updated>2026-06-18T10:14:52Z</updated>
+  <updated>2026-06-20T12:02:07Z</updated>
   <id>https://emffilms.org/films/</id>
   <author>
     <name>EMF Films Team</name>
@@ -108,16 +108,16 @@
       </entry>
       
       <entry>
-        <title>MOON</title>
-        <link href="https://emffilms.org/films/moon"/>
+        <title>Contact</title>
+        <link href="https://emffilms.org/films/contact"/>
         <updated>2026-07-18T22:00:00+01:00</updated>
-        <id>https://emffilms.org/films/moon</id>
+        <id>https://emffilms.org/films/contact</id>
         <content type="html">
           <p>Saturday
             18th July 22:00</p>
-          <p>2009 - 1h 37 - 15</p>
-          <p>Sam Bell encounters the most terrifying thing on a Moon base. Himself.</p>
-          <p>When Sam Bell signs up for a three-year mining contract working on Sarang Moon base, he assumes he is alone. He is wrong. Beautifully shot by Duncan Jones and with thumping music by Clint Mansell, Moon is dark, claustrophobic and at times surreal.</p>
+          <p>1997 - 2h 30 - 12</p>
+          <p>When a message is received from deep space, a young scientist is given the chance to be the first make contact.</p>
+          <p>Our final film is one of our most requested. Contact is adaptation of Carl Sagan&#39;s book on how we may encounter alien life. A message is received from deep space with instructions for a new type of craft. What follows is politics, lies and wonder. The cinematography alone make this worth a watch. How did they shoot the scene with the bathroom cabinet?</p>
         </content>
       </entry>
       
@@ -138,28 +138,28 @@
       <entry>
         <title>The Princess Bride</title>
         <link href="https://emffilms.org/films/princessbride"/>
-        <updated>2026-07-19T18:30:00+01:00</updated>
+        <updated>2026-07-19T20:15:00+01:00</updated>
         <id>https://emffilms.org/films/princessbride</id>
         <content type="html">
           <p>Sunday
-            19th July 18:30</p>
+            19th July 20:15</p>
           <p>1987 - 1h 41 - U</p>
-          <p>A mapcap fairytale adventure with countless cameos, quatable lines and general silliness.</p>
+          <p>A mapcap fairytale adventure with countless cameos, quotable lines and general silliness.</p>
           <p>Hello. Our name is Films Team. You&#39;ve attended our screening, prepare to see a movie. Winding up our programme, this special tribute to the late Rob Reiner is an outright classic. Despite it&#39;s fairytale exterior, it&#39;s full of laughs, endlessly quotable lines, pythonesque moments and of course &lt;i&gt;that&lt;/i&gt; speech. Come and join in with all best lines. Missing this? INCONCEIVABLE!</p>
         </content>
       </entry>
       
       <entry>
-        <title>Contact</title>
-        <link href="https://emffilms.org/films/contact"/>
-        <updated>2026-07-19T21:00:00+01:00</updated>
-        <id>https://emffilms.org/films/contact</id>
+        <title>MOON</title>
+        <link href="https://emffilms.org/films/moon"/>
+        <updated>2026-07-19T22:00:00+01:00</updated>
+        <id>https://emffilms.org/films/moon</id>
         <content type="html">
           <p>Sunday
-            19th July 21:00</p>
-          <p>1997 - 2h 30 - 12</p>
-          <p>When a message is received from deep space, a young scientist is given the chance to be the first make contact.</p>
-          <p>Our final film is one of our most requested. Contact is adaptation of Carl Sagan&#39;s book on how we may encounter alien life. A message is received from deep space with instructions for a new type of craft. What follows is politics, lies and wonder. The cinematography alone make this worth a watch. How did they shoot the scene with the bathroom cabinet?</p>
+            19th July 22:00</p>
+          <p>2009 - 1h 37 - 15</p>
+          <p>Sam Bell encounters the most terrifying thing on a Moon base. Himself.</p>
+          <p>When Sam Bell signs up for a three-year mining contract working on Sarang Moon base, he assumes he is alone. He is wrong. Beautifully shot by Duncan Jones and with thumping music by Clint Mansell, Moon is dark, claustrophobic and at times surreal.</p>
         </content>
       </entry>
 </feed>
